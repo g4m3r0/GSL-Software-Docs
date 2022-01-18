@@ -1,6 +1,17 @@
 ## Changelog 
 **Date: (dd-mm-yyyy)**
 
+## Version 3.1.0 (19-01-2022)
+- [IMPROVE] Multithreading
+- [IMPROVE] Proxy Testing
+- [IMPROVE] Socket-based requests
+- [IMPROVE] Performance & resource usage (heavily reducing CPU usage)
+- [IMPROVE] Autopilot function (Download Source when missing)
+- [IMPROVE] Upgrade to .Net 6
+- [IMPROVE] Documentation
+- [FIX] GUI
+- [FIX] Minor bugs
+
 ## Version 3.0.6 (13-11-2021)
 - [UPDATED] Proxyjudges
 - [FIXED] Minor Bug
