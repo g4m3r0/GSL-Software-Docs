@@ -25,19 +25,19 @@ Proxy Buddy is the fastest proxy tester on the market for Windows Desktop. With 
 
 |Function | Description
 --- | ---
-|Host
-|Port
-|Status
-|Google Search
-|Country
-|Speed
-|Anonimity
-|Protocol
-|Uptime
-|U
-|D
-|Blacklisted
-|Last update
+|Host| IP address of the proxy server.
+|Port| Port of the proxy server.
+|Status| Status of the proxy server (Up, Down, NotTested)
+|Google Search| 
+|Country| Origin country of the proxy server.
+|Speed| Time needed for a basic request (lower is better).
+|Anonymity| Anonymity level of the proxy server (Transparent, Anonymous, Elite)
+|Protocol| Connection protocol of the proxy server (HTTP, HTTPS, Socks4, Socks5)
+|Uptime| Uptime in percent (0-100)
+|U| Uptime counter
+|D| Down counter
+|Blacklisted| Displays if the proxy server (IP) is blacklisted.
+|Last update| Last time the proxy was updated/tested.
 
 ### Context Menu
 
@@ -45,8 +45,8 @@ Proxy Buddy is the fastest proxy tester on the market for Windows Desktop. With 
 
 |Function | Description
 --- | ---
-|Tick
-|Copy
+|Tick| Tick the checkbox of proxy servers.
+|Copy| Copy proxy servers to clipboard in IP:Port format.
 
 ### Status
 
@@ -82,6 +82,16 @@ The status bar at the bottom of the source list shows the amount of proxy source
 ## Task Scheduler
 
 ![Task Scheduler](assets/img/task_list.png)
+
+|Function | Description
+--- | ---
+|ID| ID of the task.
+|Name| Name of the task.
+|Action| Action that will be executed by the task.
+|Next execution in Min|
+|Execution every in Min|
+|Last Execution|
+|Sub-Task|
 
 ### Action
 
@@ -195,16 +205,16 @@ On the *Settings* tab several software parameters can be adjusted. The settings 
 **E-Mail Settings**
 |Function | Description
 --- | ---
-|SMTP Server
-|SMTP Port
-|SMTP Username
-|SMTP Password
-|E-Mail From
-|Subject
-|Body
-|Enable SSL
-|Maximum amount of proxies sent
-|Attach proxies as text file (else append them to body)
+|SMTP Server| 
+|SMTP Port| 
+|SMTP Username| 
+|SMTP Password| 
+|E-Mail From| 
+|Subject| 
+|Body| 
+|Enable SSL| 
+|Maximum amount of proxies sent| 
+|Attach proxies as text file (else append them to body)| 
 
 **E-Mail Receiver List**
 |Function | Description
@@ -220,12 +230,12 @@ On the *Settings* tab several software parameters can be adjusted. The settings 
 
 |Function | Description
 --- | ---
-|FTP Server
-|FTP Path + Filename
-|FTP Username
-|FTP Password
-|Limit uploaded proxies to
-|Manually Upload
+|FTP Server| 
+|FTP Path + Filename| 
+|FTP Username| 
+|FTP Password| 
+|Limit uploaded proxies to| 
+|Manually Upload| 
 
 ### Error Log
 
