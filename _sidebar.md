@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* Index Buddy - Software Documentation
+* Proxy Buddy - Software Documentation
 * [Getting started](/)
 
 * Software Documentation
