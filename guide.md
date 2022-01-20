@@ -88,24 +88,102 @@ The status bar at the bottom of the source list shows the amount of proxy source
 |ID| ID of the task.
 |Name| Name of the task.
 |Action| Action that will be executed by the task.
-|Next execution in Min|
-|Execution every in Min|
-|Last Execution|
-|Sub-Task|
+|Next execution in Min| The time in minutes when the task will be sheduled for execution the next time.
+|Execution every in Min| The delay between task executions.
+|Last Execution| The time when the task was executed the last time.
+|Sub-Task| The ID of the task that will be executed after the parent (this) task was executed.
 
 ### Action
 
 ![Action](assets/img/task_action.png)
 
+#### Task Action
+
+|Function | Description
+--- | ---
+|Test Proxies matching Filter| Test all proxies matching the filter.
+|Export Proxies matching Filter| Export all proxies matching the filter.
+|Remove Proxies matching Filter| Remove all proxies matching the filter.
+|Upload Proxies to FTP server matching Filter| Upload all proxies matching the filter to the configured FTP server.
+|Send Proxies by Mail matching Filter| Send all proxies matching the filter to the configured email addresses.
+|Scrape All Proxy Source| Scrape all proxy source.
+|Download new Proxy Source from GSoftwareLab| Download new proxy source from GSoftwareLab.
+
+#### Task Sheduling
+|Function | Description
+--- | ---
+|Execute Task every x minutes.| The delay between task executions.
+
+#### Assing Sub-Task
+Sub-Tasks will be executed right after the parent (this) task has been compleated.
+|Function | Description
+--- | ---
+|Assign a Sub-Task to this Task| 
+
+#### Task Name
+|Function | Description
+--- | ---
+|Task Name| Give the task a name that you can easily remember.
+
+#### Export Settings
+|Function | Description
+--- | ---
+|Export in Scrapebox format
+|Path
+|Dynamic Filename (Current time appended to filename)
+
 ### Filter
 
 ![Filter](assets/img/task_filter.png)
+
+#### Proxy Status
+|Function | Description
+--- | ---
+
+#### Proxy Uptime
+|Function | Description
+--- | ---
+
+#### Proxy Protocol
+|Function | Description
+--- | ---
+
+#### Filter Presets
+|Function | Description
+--- | ---
+|Filter: Google Passed| Configure the filter to only match Google Passed proxies.
+|Filter: UP| Configure the filter to only match up/online proxies.
+|Filter: RESET| Reset all configured filters.
+
+#### Proxy Google Search Pass
+|Function | Description
+--- | ---
+
+#### Proxy Blacklisted
+|Function | Description
+--- | ---
+
+#### Proxy Speed
+|Function | Description
+--- | ---
+
+#### Proxy Anonimity Level
+|Function | Description
+--- | ---
+
+#### Proxy Country
+|Function | Description
+--- | ---
 
 ## Top Menu
 
 ### Autopilot
 
 The *Autopilot* will scrape proxy source and test the found proxies afterwards. Proxy Sources will be dowloaded from GSL if there are no proxy source inside the list. Working proxy server will be added to the *Proxy List*.
+
+### Test
+
+### Scrape
 
 ### Import
 
@@ -123,7 +201,7 @@ The *Autopilot* will scrape proxy source and test the found proxies afterwards. 
 Stop all current operations. It can take some minutes until all threads are shutdown.
 
 ### Help
-Opens the link to the help page with the software manual.
+Opens the help page with the software manual in the default browser.
 
 ## Settings
 On the *Settings* tab several software parameters can be adjusted. The settings tab can be found in the top menu.
@@ -205,16 +283,16 @@ On the *Settings* tab several software parameters can be adjusted. The settings 
 **E-Mail Settings**
 |Function | Description
 --- | ---
-|SMTP Server| 
-|SMTP Port| 
-|SMTP Username| 
-|SMTP Password| 
-|E-Mail From| 
-|Subject| 
-|Body| 
-|Enable SSL| 
-|Maximum amount of proxies sent| 
-|Attach proxies as text file (else append them to body)| 
+|SMTP Server| The SMTP server of your email provider.
+|SMTP Port| The SMTP port of your email provider.
+|SMTP Username| The SMTP username of your email, usually the email address.
+|SMTP Password| The SMTP username of your email, usually the email password.
+|E-Mail From| Define the origin email, usually your email address.
+|Subject| Define the email subject.
+|Body| Define the email body (text). 
+|Enable SSL| Enable or disable SSL (depends on your email provider).
+|Maximum amount of proxies sent| Limit the number of sent proxies.
+|Attach proxies as text file (else append them to body)| Attach the proxies as text file to the email or append them to the emails body as text in IP:Port format.
 
 **E-Mail Receiver List**
 |Function | Description
@@ -230,12 +308,12 @@ On the *Settings* tab several software parameters can be adjusted. The settings 
 
 |Function | Description
 --- | ---
-|FTP Server| 
+|FTP Server| FTP Server
 |FTP Path + Filename| 
-|FTP Username| 
-|FTP Password| 
-|Limit uploaded proxies to| 
-|Manually Upload| 
+|FTP Username| FTP Username
+|FTP Password| FTP Password
+|Limit uploaded proxies to| Limit the number of uploaded proxies.
+|Manually Upload| Press this button to manually upload a proxy list to the server.
 
 ### Error Log
 
