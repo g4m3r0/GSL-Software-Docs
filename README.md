@@ -1,5 +1,6 @@
 # Proxy Buddy Documentation
-Software Documentation for [Proxy Buddy](https://gsoftwarelab.com/proxy-buddy-scraper-tester/) Version 3.1.0 - 19-12-2022
+Software Documentation for [Proxy Buddy](https://gsoftwarelab.com/proxy-buddy-scraper-tester/) Version 3.1.0 - 2022/01/19
+Last Update: 2022/01/21
 
 ## Getting Started
 Proxy Buddy is an award-winning proxy scanner and proxy tester. It allows you to automatically and easily scrape, test, filter, and export thousands of public proxy servers according to your requirements. The new one-click autopilot feature allows you to harvest and test thousands of proxy servers with just a single click.
@@ -13,8 +14,8 @@ Download Proxy Buddy using the link in your order confirmation or from the [cust
 Proxy Buddy **requires .Net 6.0.1** or later. That package can be downloaded from [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
 
 ## Activation
-The lincese key is shipped with your order confirmation email. It has to be entered on the first application start.
-It is recommened to write your license key down or to print out the order confirmation email.
+The license key is shipped with your order confirmation email. It has to be entered on the first application start.
+It is recommended to write your license key down or to print out the order confirmation email.
 
 ![License activation](assets/img/activation.png)
 

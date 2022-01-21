@@ -1,6 +1,6 @@
 ## Quick Start
 
-1. Press on *Autopilot* to automatically download proxy source from our server and the testing process will be started. Working proxy server will be added to the *Proxy List*.
+1. Press on *Autopilot* to automatically download a list of proxy source from our servers. The autopilot will scrap if tehand test proxies from those source automatically. Working proxy server will be added to the *Proxy List*.
 
 ![Autopilot](assets/img/autopilot.gif)
 
@@ -9,11 +9,11 @@
 1. *Import* Proxy Sources to scrape proxies from.
 2. *Scrape* the imported sources for proxies.
 3. *Test* the scraped proxies.
-4. *Export* the the working proxies according to your needs.
+4. *Export* the working proxies according to your needs.
 
 ## Autopilot
 
-The *Autopilot* will scrape proxy source and test the found proxies afterwards. Proxy Sources will be dowloaded from GSL if there are no proxy source inside the list. Working proxy server will be added to the *Proxy List*.
+The *Autopilot* will scrape all proxy sources and test the found proxies afterward. Proxy Sources will be downloaded from GSL if there is no proxy source inside the list. Working proxy server will be added to the *Proxy List*.
 
 ## Proxy Tester
 
@@ -46,13 +46,13 @@ Proxy Buddy is the fastest proxy tester on the market for Windows Desktop. With 
 |Function | Description
 --- | ---
 |Tick| Tick the checkbox of proxy servers.
-|Copy| Copy proxy servers to clipboard in IP:Port format.
+|Copy| Copy proxy servers to the clipboard in IP:Port format.
 
 ### Status
 
 ## Proxy Scraper
 
-Proxy Buddy is the best proxy scraper software. It comes with a built-in list of fresh proxy sources. These allows to easily scrape huge lists of Google proxies each and every day. Found proxy lists can be used with all popular SEO software, SEO tools, and bots, including but not limited to GSA Search Engine Ranker, SENuke, Scrapebox.
+Proxy Buddy is the best proxy scraper software. It comes with a built-in list of fresh proxy sources. These allow to easily scrape huge lists of Google proxies each and every day. Found proxy lists can be used with all popular SEO software, SEO tools, and bots, including but not limited to GSA Search Engine Ranker, SENuke, Scrapebox.
 
 ### Source List
 
@@ -60,9 +60,9 @@ Proxy Buddy is the best proxy scraper software. It comes with a built-in list of
 
 |Function | Description
 --- | ---
-|Status| The status of the source (Scrapen, NotScraped, Down).
+|Status| The status of the source (Scraped, NotScraped, Down).
 |URL| The URL of the proxy source.
-|Proxies found| The amount of proxies found.
+|Proxies found| Displays the amount of found proxies.
 |Quality| The calculated quality.
 |Last update| The last time the source was updated.
 
@@ -118,7 +118,7 @@ The status bar at the bottom of the source list shows the amount of proxy source
 Sub-Tasks will be executed right after the parent (this) task has been compleated.
 |Function | Description
 --- | ---
-|Assign a Sub-Task to this Task| 
+|Assign a Sub-Task to this Task| Select a preve
 
 #### Task Name
 |Function | Description
