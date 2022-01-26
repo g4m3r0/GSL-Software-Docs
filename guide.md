@@ -1,6 +1,6 @@
 ## Quick Start
 
-1. Press on *Autopilot* to automatically download a list of proxy source from our servers. The autopilot will scrap if tehand test proxies from those source automatically. Working proxy server will be added to the *Proxy List*.
+1. Press on *Autopilot* to automatically download a list of proxy source from our servers, scrape proxies and test them. Those proxy servers that are determined as working will be added to the *Proxy List*.
 
 ![Autopilot](assets/img/autopilot.gif)
 
@@ -17,7 +17,7 @@ The *Autopilot* will scrape all proxy sources and test the found proxies afterwa
 
 ## Proxy Tester
 
-Proxy Buddy is the fastest proxy tester on the market for Windows Desktop. With socket-based multi-threading support, it can test more than 10.000 proxies every minute. It tests proxies for Google Pass (Google Search) and determines the country, speed, anonymity, SSL support, and the used protocol (HTTP, HTTPS, SOCK4, SOCKS5). The proxy server’s IP address will be checked for blacklisting in the stopforumspam database as well.
+Proxy Buddy is the fastest proxy tester on the market for Windows Desktop. With socket-based multi-threading support, it can test more than 10.000 proxies every minute. It tests proxies for Google Pass (Google Search) and determines the country, speed, anonymity, SSL support, and the used protocol (HTTP, HTTPS, SOCK4, SOCKS5). The proxy servers' IP address will be checked for blacklisting in the stopforumspam database as well.
 
 ### Proxy List
 
@@ -88,7 +88,7 @@ The status bar at the bottom of the source list shows the amount of proxy source
 |ID| ID of the task.
 |Name| Name of the task.
 |Action| Action that will be executed by the task.
-|Next execution in Min| The time in minutes when the task will be sheduled for execution the next time.
+|Next execution in Min| The time in minutes when the task will be scheduled for execution the next time.
 |Execution every in Min| The delay between task executions.
 |Last Execution| The time when the task was executed the last time.
 |Sub-Task| The ID of the task that will be executed after the parent (this) task was executed.
@@ -105,7 +105,7 @@ The status bar at the bottom of the source list shows the amount of proxy source
 |Export Proxies matching Filter| Export all proxies matching the filter.
 |Remove Proxies matching Filter| Remove all proxies matching the filter.
 |Upload Proxies to FTP server matching Filter| Upload all proxies matching the filter to the configured FTP server.
-|Send Proxies by Mail matching Filter| Send all proxies matching the filter to the configured email addresses.
+|Send Proxies by Mail matching Filter| Send all proxies matching the filter to the configured E-Mail addresses.
 |Scrape All Proxy Source| Scrape all proxy source.
 |Download new Proxy Source from GSoftwareLab| Download new proxy source from GSoftwareLab.
 
@@ -115,10 +115,10 @@ The status bar at the bottom of the source list shows the amount of proxy source
 |Execute Task every x minutes.| The delay between task executions.
 
 #### Assing Sub-Task
-Sub-Tasks will be executed right after the parent (this) task has been compleated.
+Sub-Tasks will be executed right after the parent (this) task has been completed.
 |Function | Description
 --- | ---
-|Assign a Sub-Task to this Task| Select a preve
+|Assign a Sub-Task to this Task| Select a task you have created before.
 
 #### Task Name
 |Function | Description
@@ -128,9 +128,9 @@ Sub-Tasks will be executed right after the parent (this) task has been compleate
 #### Export Settings
 |Function | Description
 --- | ---
-|Export in Scrapebox format
-|Path
-|Dynamic Filename (Current time appended to filename)
+|Export in Scrapebox format| 
+|Path| 
+|Dynamic Filename (Current time appended to the filename)| 
 
 ### Filter
 
@@ -179,7 +179,7 @@ Sub-Tasks will be executed right after the parent (this) task has been compleate
 
 ### Autopilot
 
-The *Autopilot* will scrape proxy source and test the found proxies afterwards. Proxy Sources will be dowloaded from GSL if there are no proxy source inside the list. Working proxy server will be added to the *Proxy List*.
+The *Autopilot* will scrape proxy source and test the found proxies afterwards. Proxy Sources will be downloaded from GSL if there are no proxy source inside the list. Working proxy server will be added to the *Proxy List*.
 
 ### Test
 
@@ -204,7 +204,7 @@ Stop all current operations. It can take some minutes until all threads are shut
 Opens the help page with the software manual in the default browser.
 
 ## Settings
-On the *Settings* tab several software parameters can be adjusted. The settings tab can be found in the top menu.
+On the *Settings* tab, several software parameters can be adjusted. The settings tab can be found in the top menu.
 
 ### General Settings
 
@@ -215,17 +215,17 @@ On the *Settings* tab several software parameters can be adjusted. The settings 
 --- | ---
 |Maximum Test-Threads| Set the maximum amount of threads used to test proxies.
 |Maximum Scrape-Threads| Set the maximum amount of threads used to scrape proxies from the proxy source.
-|Timeout in seconds| Set the timeount in seconds.
+|Timeout in seconds| Set the timeout in seconds.
 
 **General Settings**
 |Function | Description
 --- | ---
 |Start with Windows| Start Proxy Buddy with Windows.
 |Enable GridLines| Enable gridlines on all lists.
-|Enable Full-Row-Select| Enable full row select on all lists.
+|Enable Full-Row-Select| Enable full-row-select on all lists.
 |Visual Theme| Select a theme to change the visual presence.
-|Enable Debug Mode| Enables the debug mode which prints additional information to the logfile.
-|Reduce CPU usage| Reduce the CPU usage by disabling visual features.
+|Enable Debug Mode| Enables the debug mode that writes additional information to the logfile.
+|Reduce CPU usage| Reduce CPU usage by disabling visual features.
 
 **Save Settings**
 |Function | Description
@@ -251,14 +251,14 @@ On the *Settings* tab several software parameters can be adjusted. The settings 
 |Function | Description
 --- | ---
 |Test for Google search pass| Test if a proxy can search/scrape google.
-|Google Search Test URL| Set the URL which is used to test the google pass. 
+|Google Search Test URL| Set the URL that is used to test the google pass. 
 
 **General Test Settings**
 |Function | Description
 --- | ---
-|Test server location| Determine the coutry of the proxy server while testing.
-|Test Anonymity| Determine the anonimity level while testing (Transparen, Anonymous, Elite).
-|Use public proxy judge| Use a custom/public proxy judges for determining the anonimity level of proxy servers.
+|Test server location| Determine the country of the proxy server while testing.
+|Test Anonymity| Determine the anonymity level while testing (Transparent, Anonymous, Elite).
+|Use public proxy judge| Use custom/public proxy judges for determining the anonymity level of proxy servers.
 |Test HTTP protocol| Test if the proxy supports the HTTP protocol.
 |Test HTTPS support| Test if the proxy supports the HTTPS/SSL.
 |Test Socks4 protocol| Test if the proxy supports the Socks4 protocol.
@@ -267,7 +267,7 @@ On the *Settings* tab several software parameters can be adjusted. The settings 
 **Test and Scrape (Auto) Settings**
 |Function | Description
 --- | ---
-|Stop Test and Scrape (Auto) when found x workinig proxies.| Stop the autopilot when x amount of working proxies were found.
+|Stop Test and Scrape (Auto) when found x working proxies.| Stop the autopilot when x amount of working proxies was found.
 |Only add up/online proxies to the Proxy List.| Only add proxies that are up/online to the proxy list.
 
 **Duplicate Settings**
@@ -283,16 +283,16 @@ On the *Settings* tab several software parameters can be adjusted. The settings 
 **E-Mail Settings**
 |Function | Description
 --- | ---
-|SMTP Server| The SMTP server of your email provider.
-|SMTP Port| The SMTP port of your email provider.
-|SMTP Username| The SMTP username of your email, usually the email address.
-|SMTP Password| The SMTP username of your email, usually the email password.
-|E-Mail From| Define the origin email, usually your email address.
-|Subject| Define the email subject.
-|Body| Define the email body (text). 
-|Enable SSL| Enable or disable SSL (depends on your email provider).
+|SMTP Server| The SMTP server of your E-Mail provider.
+|SMTP Port| The SMTP port of your E-Mail provider.
+|SMTP Username| The SMTP username of your E-Mail, usually the E-Mail address.
+|SMTP Password| The SMTP username of your E-Mail, usually the E-Mail password.
+|E-Mail From| Define the origin E-Mail, usually your E-Mail address.
+|Subject| Define the E-Mail subject.
+|Body| Define the E-Mail body (text). 
+|Enable SSL| Enable or disable SSL (depends on your E-Mail provider).
 |Maximum amount of proxies sent| Limit the number of sent proxies.
-|Attach proxies as text file (else append them to body)| Attach the proxies as text file to the email or append them to the emails body as text in IP:Port format.
+|Attach proxies as text file (else append them to body)| Attach the proxies as a text file to the E-Mail or append them to the E-Mails' body as text in IP:Port format.
 
 **E-Mail Receiver List**
 |Function | Description
