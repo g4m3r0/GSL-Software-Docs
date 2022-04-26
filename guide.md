@@ -1,28 +1,49 @@
 # Quick Start
-
-1. Press on *Autopilot* to automatically download a list of proxy source from our servers, scrape proxies and test them. Those proxy servers that are determined as working will be added to the *Proxy List*.
-
-![Autopilot](assets/img/autopilot.gif)
-
-**OR**
-
-1. *Import* Proxy Sources to scrape proxies from.
-2. *Scrape* the imported sources for proxies.
-3. *Test* the scraped proxies.
-4. *Export* the working proxies according to your needs.
-
 ## Autopilot
 
-The *Autopilot* will scrape all proxy sources and test the found proxies afterward. Proxy Sources will be downloaded from GSL if there is no proxy source inside the list. Working proxy server will be added to the *Proxy List*.
+The **Autopilot** feature will scrape all proxy sources and test the found proxies afterwards. Proxy Sources will be downloaded from GSL if they are missing. Working proxy server will be added to the Proxy List.
 
-## Proxy Tester
+1. **Press on the Autopilot button** to automatically download a list of proxy source from GSL. Those source will automatically be scraped and the found proxy servers tested. Those proxy servers that are determined as working will be added to the *Proxy List*.
 
-Proxy Buddy is the fastest proxy tester on the market for Windows Desktop. With socket-based multi-threading support, it can test more than 10.000 proxies every minute. It tests proxies for Google Pass (Google Search) and determines the country, speed, anonymity, SSL support, and the used protocol (HTTP, HTTPS, SOCK4, SOCKS5). The proxy servers' IP address will be checked for blacklisting in the stopforumspam database as well.
+![Autopilot](assets/img/autopilot.gif)  
+
+### **Alternative**
+
+1. **Import** Proxy Sources (URLs) from file or clipboard to scrape proxies by clicking on the **Import** button.
+2. **Scrape** the imported sources for proxies by clicking on the **Scrape** button (**Note:** Scraped proxies wont be tested automatically.).
+3. **Test** the scraped proxies by clicking on the **Test** button.
+4. **Export** the working proxies according to your needs by using the **Export** button.  
+
+## Top Menu
+### **Autopilot**
+
+The **Autopilot** will scrape proxy source and test the found proxies afterwards. Proxy Sources will be downloaded from GSL if there are no proxy source inside the list. Working proxy server will be added to the *Proxy List*.
+### **Test**
+The **Test** feature allows to manually test proxy servers.
+### **Scrape**
+The **Scrape** feature allows to manually scrape proxy source from the *Source List*
+Proxy Source can also be downloaded the the GSL servers.
+### **Import**
+The **Import** feature allows to manually import proxy servers or proxy source from either file or clipboard (*STRG+C*).
+
+### **Export**
+The **Export** feature allows to manually export proxy servers or proxy source from either file or clipboard (*STRG+V*).
+### **Remove**
+The **Remove** feature allows to manually remove proxy servers or proxy source from the lists.
+### **Stop**
+The **Stop** button will stop all current operations. It can take some minutes until all threads are shutdown.
+
+### **Help**
+The **Help** button opens the help page with the software manual in the systems' default browser.
+
+# Proxy Tester
+
+**Proxy Buddy** is the fastest proxy tester on the market for Windows desktop or server systems. With socket-based multi-threading support, it can test more than 10.000 proxies every minute. It tests proxies for Google Pass (Google Search) and determines the country, speed, anonymity level, SSL support, and the used protocol (e.g. HTTP, HTTPS, SOCK4, SOCKS5). The proxy servers' IP address will be checked for blacklisting in the *stopforumspam* database as well.
 
 # Proxy List
 
 ![Proxy List](assets/img/proxy_list.png)
-
+### Proxy List Description
 | Function | Description
 | --- | --- 
 | Host | IP address of the proxy server.
@@ -34,21 +55,31 @@ Proxy Buddy is the fastest proxy tester on the market for Windows Desktop. With 
 | Anonymity | Anonymity level of the proxy server (Transparent, Anonymous, Elite)
 | Protocol | Connection protocol of the proxy server (HTTP, HTTPS, Socks4, Socks5)
 | Uptime | Uptime in percent (0-100)
-| U | Uptime counter
-| D | Down counter
-| Blacklisted | Displays if the proxy server (IP) is blacklisted.
-| Last update | Last time the proxy was updated/tested.
+| U | Uptime counter (Note: Will be increased with every successful test)
+| D | Down counter (Note: Will be increased with every unsuccessful test)
+| Blacklisted | Displays if the proxy servers' IP address is blacklisted.
+| Last update | Last time the proxy was updated (e.g. added, tested).
 
 ## Context Menu
 
 ![Proxy List Context Menu](assets/img/proxy_list_context_menu.png)
-
+### Context Menu Description
 | Function | Description
 | --- | ---
-| Tick | Tick the checkbox of proxy servers.
+| Tick (*Check*) | Tick the checkbox of proxy servers (Note: This is used to test, export, remove checked proxy servers).
 | Copy | Copy proxy servers to the clipboard in IP:Port format.
 
-## Status
+### Status Bar Description
+| Function | Description
+| --- | ---
+| Total | Displays the total amount of proxy servers inside the list.
+| Not Tested | Displays the amount of untested proxy servers.
+| Up | Displays the amount of up/online proxy servers (The amount of proxy servers that pass the Google Search test).
+| Down | Displays the amount of down/offline proxy servers.
+| Elite | Displays the amount of proxy servers with an anonymity level of *Elite*.
+| Anon. | Displays the amount of proxy servers with an anonymity level of *Anonymous*.
+| Trans. | Displays the amount of proxy servers with an anonymity level of *Transparent*.
+| Remaining | Displays the remaining time in minutes to finish the testing process.  
 
 # Proxy Scraper
 
@@ -69,36 +100,45 @@ Proxy Buddy is the best proxy scraper software. It comes with a built-in list of
 ## Context Menu
 
 ![Source List Context Menu](assets/img/source_list_context_menu.png)
-
+### Context Menu Description
 | Function | Description
 | --- | ---
-| Tick All | Tick the checkbox of all sources.
-| Tick None | Untick the checkbox of all sources.
-| Calculate Qualits | Calculate the quality of the sources according to the tested proxies.
+| Tick All | Enables/Checks the checkbox of all sources.
+| Tick None | Disables/Unchecks the checkbox of all sources.
+| Calculate Quality | Calculate the quality of the sources according to the tested proxies (from 0 (worse) to 100 (very good)).
 
-## Status
+### Status Bar
 The status bar at the bottom of the source list shows the amount of proxy sources inside the list.
 
 # Task Scheduler
+Proxy Buddy comes with the ability to use advanced scheduling (task-management) features to automate nearly every feature. Tasks only have to be setup once and they will run by themselves after the defined time. Tasks can be created for proxy scraping, testing, filtering, exporting, or sending lists of proxies by email.
 
 ![Task Scheduler](assets/img/task_list.png)
-
+### Task List Description
 | Function | Description
 | --- | ---
-| ID | ID of the task.
+| ID | Identifier of the task.
 | Name | Name of the task.
 | Action | Action that will be executed by the task.
 | Next execution in Min | The time in minutes when the task will be scheduled for execution the next time.
 | Execution every in Min | The delay between task executions.
 | Last Execution | The time when the task was executed the last time.
-| Sub-Task | The ID of the task that will be executed after the parent (this) task was executed.
+| Sub-Task | The Identifier (ID) of the task that will be executed right after the parent (this) task was successfully executed.
 
-## Action
+### Status Bar Description
+| Function | Description
+| --- | ---
+| Add new Task | Add a new task (Note: See below for more information).
+| Edit selected Task | Edit the selected (blue background) task.
+| Remove selected Task | Remove the selected (blue background) task.
+| Start selected Task | Manually start the selected (blue background) task.
+
+## Add/Edit Task
 
 ![Action](assets/img/task_action.png)
 
 ### Task Action
-
+The action defines the functionality of the task that should be executed.
 | Function | Description
 | --- | ---
 | Test Proxies matching Filter | Test all proxies matching the filter.
@@ -109,17 +149,18 @@ The status bar at the bottom of the source list shows the amount of proxy source
 | Scrape All Proxy Source | Scrape all proxy source.
 | Download new Proxy Source from GSoftwareLab | Download new proxy source from GSoftwareLab.
 
-### Task Sheduling
+### Task Scheduling
 | Function | Description
 | --- | ---
-|Execute Task every x minutes. | The delay between task executions.
+|Execute Task every x minutes. | The delay between task executions (e.g. 60 minutes: The Task will be executed every 60 minutes.).
 
-### Assing Sub-Task
+### Assign Sub-Task
 Sub-Tasks will be executed right after the parent (this) task has been completed.
+The Sub-Task needs to exists before it can be added. To add a Sub-Task afterward you can use the *Edit selected Task* feature.
 
 | Function | Description
 | --- | ---
-|Assign a Sub-Task to this Task | Select a task you have created before.
+|Assign a Sub-Task to this Task | Select a task (ID) that should be assigned as Sub-Task (Note: see above).
 
 ### Task Name
 
@@ -131,28 +172,72 @@ Sub-Tasks will be executed right after the parent (this) task has been completed
 
 | Function | Description
 | --- | ---
-| Export in Scrapebox format | todo
-| Path| todo
-| Dynamic Filename (Current time appended to the filename) | todo 
+| Export in Scrapebox/Traffic Buddy format | Export proxy servers in the format used by Scrapebox and Traffic Buddy.
+| Path| Browse the filepath where the exported proxies should be saved.
+| Dynamic Filename (Current time appended to the filename) | By adding the current time stamp to the filename previously created files wont be overwritten.  
 
 ## Filter
-
+Filters are used to filter out proxy servers that should not be included in the action (e.g. To only export working (UP) proxy servers to a file the filter preset *UP* should be used). If a proxy server should be included in the action the specific checkbox of filter should be checked (e.g. include all online proxies - check the *UP* checkbox).
 ![Filter](assets/img/task_filter.png)
 
 ### Proxy Status
 
 | Function | Description
 | --- | ---
+| UP | Filter for online (UP) proxy servers.
+| Down | Filter for offline (Down) proxy servers.
+| Not Tested | Filter for untested proxy servers.
 
 ### Proxy Uptime
 
 | Function | Description
 | --- | ---
+| Uptime over | Filter for proxy servers with an uptime score over n % (Note: higher is better).
+| Uptime under | Filter for proxy servers with an uptime score under n % (Note: higher is better).
 
 ### Proxy Protocol
 
 | Function | Description
 | --- | ---
+| HTTP | Filter proxy servers with the HTTP protocol.
+| HTTPS (SSL) | Filter proxy servers with the HTTPS protocol, supporting SSL.
+| Socks 4 | Filter proxy servers with the Socks 4 protocol.
+| Socks 5 | Filter proxy servers with the Socks 5 protocol.
+
+### Proxy Google Search Pass
+
+| Function | Description
+| --- | ---
+| Google Passed | Filter proxy servers that pass the Google Search Test.
+| Google Blocked | Filter proxy servers that do not pass the Google Search Test.
+| Not Tested | Filter proxy servers that are untested for Google Pass.
+
+### Proxy Blacklisted
+
+| Function | Description
+| --- | ---
+| Blacklisted | Filter proxy servers that are blacklisted by the *stopforumspam* database.
+| Not Blacklisted | Filter proxy servers that are not blacklisted by the *stopforumspam* database.
+| Not Tested | Filter for untested proxy servers.
+
+### Proxy Speed
+
+| Function | Description
+| --- | ---
+| Speed over | Filter for proxy servers with an connection speed over n seconds (Note: lower is better).
+| Speed under | Filter for proxy servers with an connection speed under n seconds (Note: lower is better).
+
+### Proxy Anonymity Level
+
+| Function | Description
+| --- | ---
+| Transparent L3 | Filter proxy servers that are Transparent L3 (bad).
+| Anonymous L2 | Filter proxy servers that are Anonymous L2 (good).
+| Elite L1 | Filter proxy servers that  are Elite L1 (very good).
+| Exact level | Use the exact anonymity level of the proxy server.
+| Exact level or higher | Use the exact or higher (better) anonymity level of the proxy server.
+### Proxy Country
+Filter country that should be included (e.g. Check Germany to include all proxy servers from Germany).
 
 ### Filter Presets
 
@@ -162,61 +247,8 @@ Sub-Tasks will be executed right after the parent (this) task has been completed
 | Filter: UP | Configure the filter to only match up/online proxies.
 | Filter: RESET | Reset all configured filters.
 
-### Proxy Google Search Pass
-
-| Function | Description
-| --- | ---
-
-### Proxy Blacklisted
-
-| Function | Description
-| --- | ---
-
-### Proxy Speed
-
-| Function | Description
-| --- | ---
-
-### Proxy Anonimity Level
-
-| Function | Description
-| --- | ---
-
-### Proxy Country
-
-| Function | Description
-| --- | ---
-
-# Top Menu
-
-## Autopilot
-
-The *Autopilot* will scrape proxy source and test the found proxies afterwards. Proxy Sources will be downloaded from GSL if there are no proxy source inside the list. Working proxy server will be added to the *Proxy List*.
-
-## Test
-
-## Scrape
-
-## Import
-
-![Import](assets/img/top_import.png)
-
-## Export
-
-![Export](assets/img/top_export.png)
-
-## Remove
-
-![Remove](assets/img/top_remove.png)
-
-## Stop
-Stop all current operations. It can take some minutes until all threads are shutdown.
-
-## Help
-Opens the help page with the software manual in the default browser.
-
 # Settings
-On the *Settings* tab, several software parameters can be adjusted. The settings tab can be found in the top menu.
+On the **Settings** tab, several software parameters can be adjusted. The settings tab can be found in the top menu.
 
 ## General Settings
 
@@ -235,10 +267,10 @@ On the *Settings* tab, several software parameters can be adjusted. The settings
 | Function | Description
 | --- | ---
 | Start with Windows | Start Proxy Buddy with Windows.
-| Enable GridLines | Enable gridlines on all lists.
+| Enable GridLines | Enable grid lines on all lists (Proxy, Source and Task list).
 | Enable Full-Row-Select | Enable full-row-select on all lists.
 | Visual Theme | Select a theme to change the visual presence.
-| Enable Debug Mode | Enables the debug mode that writes additional information to the logfile.
+| Enable Debug Mode | Enables the debug mode that writes additional information to the log-file.
 | Reduce CPU usage | Reduce CPU usage by disabling visual features.
 
 ### Save Settings
