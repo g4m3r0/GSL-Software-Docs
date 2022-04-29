@@ -1,6 +1,8 @@
 # Table of contents
 
-* [Proxy Buddy Documentation](README.md)
+* [Proxy Buddy](README.md)
   * [Software Guide](readme/guide.md)
-  * [🔧 Changelog](readme/changelog.md)
-  * [\_sidebar](readme/\_sidebar.md)
+  * [⚙ Changelog](readme/changelog.md)
+* [Index Buddy](index-buddy/README.md)
+  * [Software Guide](index-buddy/software-guide.md)
+  * [⚙ Changelog](index-buddy/changelog.md)
