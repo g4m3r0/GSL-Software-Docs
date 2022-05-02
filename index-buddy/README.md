@@ -1,6 +1,6 @@
 # Index Buddy
 
-Software Documentation for [Index Buddy](https://gsoftwarelab.com/index-buddy-backlink-indexer/) Version 1.03 - 26-11-2021
+Software Documentation for [Index Buddy](https://gsoftwarelab.com/index-buddy-backlink-indexer/) Version 1.03 - 02-05-2022
 
 ## Getting Started
 
@@ -14,13 +14,15 @@ Index Buddy can be purchased on our [online shop](https://gsoftwarelab.com/shop/
 
 ## Installation
 
-Download Index Buddy using the link in your order confirmation or from the [customer area](https://gsoftwarelab.com/my-account/downloads/). Index Buddy **requires the .Net Framework 4.8** or later. That package can be downloaded from [Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer).
+To download Index Buddy use the link in your order confirmation or using the download button in your [customer area](https://gsoftwarelab.com/my-account/downloads/). Index Buddy **requires the .Net Framework 4.8** or later. The .Net Framework installer can be downloaded from [Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer).
 
 ## Activation
 
-The license key is shipped with your order confirmation email. It has to be entered on the first application start. It is recommened to write your license key down or to print out the order confirmation email.
+The license key is shipped with your order confirmation email. It has to be entered on the first application start. It is recommended to write your license key down or to print out the order confirmation email.
 
-To prevent typos consider copy and pasting the license key form the order comfirmation email. After pasting it make sure there is no white space (" ") in the beginning or at the end of your entered license key. If you have problems activating your product please feel free to contact our support team.
+To prevent typos consider copy and pasting the license key form the order confirmation email. After pasting it make sure there is no white space (" ") in the beginning or at the end of your entered license key. If you have problems activating your product please feel free to contact our support team.
+
+![Product activation](../.gitbook/assets/indexBuddy\_activation.png)
 
 ## Trouble Shooting / FAQ
 
