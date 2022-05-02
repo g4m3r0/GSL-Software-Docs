@@ -1,6 +1,6 @@
 # Index Buddy
 
-Software Documentation for [Index Buddy](https://gsoftwarelab.com/index-buddy-backlink-indexer/) Version 1.03 - 02-05-2022
+Software Documentation for [Index Buddy](https://gsoftwarelab.com/index-buddy-backlink-indexer/) Version 1.03 - Last Update: 2022/05/02
 
 ## Getting Started
 
