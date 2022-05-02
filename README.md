@@ -12,7 +12,7 @@ Proxy Buddy can be purchased on our [online shop](https://gsoftwarelab.com/shop/
 
 ## Installation
 
-To download Proxy Buddy use the link in your order confirmation or using the download button in your [customer area](https://gsoftwarelab.com/my-account/downloads/). Proxy Buddy **requires .Net 6.0.1** or later. The .Net 6.0.X installer can be downloaded from [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
+To download Proxy Buddy use the link in your order confirmation or use the download button in your [customer area](https://gsoftwarelab.com/my-account/downloads/). Proxy Buddy **requires .Net 6.0.1** or later. The .Net 6.0.X installer can be downloaded from [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
 
 ## Activation
 
