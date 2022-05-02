@@ -26,8 +26,11 @@ To prevent typos consider copy and pasting the license key form the order confir
 
 ## Trouble Shooting / FAQ
 
-Q: Do you provide a free trial version? A: We offer a 7-day money-back guarantee on any purshase a free trial is currently not planned.
+**Q:** Do you provide a free trial version? \
+**A:** We offer a 7-day money-back guarantee on any purshase a free trial is currently not planned.
 
-Q: I have problems starting the program. A: Please check if you have .Net Framework 4.8 or later installed on your computer or download it from [Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer).
+**Q:** I have problems starting the program. \
+**A:** Please check if you have .Net Framework 4.8 or later installed on your computer or download it from [Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer).
 
-Q: The program shows that my license key is invalid. A: Please check your internet connection and make sure that there is no white space (" ") in the beginning or at the end of your entered license key.
+**Q:** The program shows that my license key is invalid. \
+**A:** Please check your internet connection and make sure that there is no white space (" ") in the beginning or at the end of your entered license key.
