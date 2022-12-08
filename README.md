@@ -4,7 +4,7 @@ Software Documentation for [Proxy Buddy](https://gsoftwarelab.com/proxy-buddy-sc
 
 ## Getting Started
 
-Proxy Buddy is an award-winning proxy scanner and proxy tester. It allows you to automatically and easily scrape, test, filter, and export thousands of public proxy servers according to your requirements. The new one-click autopilot feature allows you to harvest and test thousands of proxy servers with just a single click. You can export proxy lists that can be used with all major SEO software applications and bots. A special Google search test allows you to test if the proxy server is able to scrape search engine results from Google.
+Proxy Buddy is an award-winning proxy scanner and tester that makes it easy to scrape, test, filter, and export thousands of public proxy servers to meet your specific needs. With the new one-click autopilot feature, you can quickly and easily harvest and test thousands of proxies with just a single click. You can then export these proxy lists to use with a wide range of SEO software and bots. Additionally, a special Google search test allows you to verify if the proxy servers can successfully scrape search engine results from Google.
 
 ## Purchase
 
