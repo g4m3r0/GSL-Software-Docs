@@ -1,9 +1,5 @@
 # ⚙ Changelog
 
-### Changelog
-
-**Date: (dd-mm-yyyy)**
-
 ### Version 1.0.3 (14-01-2021)
 
 * \[UPDATE] .Net Framework to version 4.8

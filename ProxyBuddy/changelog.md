@@ -1,12 +1,49 @@
 # ⚙ Changelog
 
-### Changelog
+### Version 3.3.0 (11-08-2022)
 
-**Date: (dd-mm-yyyy)**
+* \[IMPROVE] Proxy Testing
+* \[IMPROVE] Source Scraping
+* \[IMPROVE] General performance improvement
+* \[IMPROVE] Proxy Judge
+* \[FIX] GUI bugs
+* \[FIX] Major bugs
+* \[FIX] GUI bugs
+* \[FIX] Minor bugs
+* \[FIX] GUI bugs
+* \[FIX] Minor bugs
+* \[FIX] Minor bugs
+
+### Version 3.2.1 (24-08-2022)
+
+* \[FIX] GUI bugs
+* \[FIX] Minor bugs
+
+### Version 3.2.0 (24-05-2022)
+
+* \[ADD] Export proxies in Scrapebox/Traffic Buddy format
+* \[ADD] Busyindicators
+* \[ADD] Update StopForumSpam DB feature
+* \[IMPROVE] Proxy Testing
+* \[IMPROVE] Source Scraping
+* \[IMPROVE] General performance improvement
+* \[IMPROVE] Proxy Source
+* \[IMPROVE] License activation
+* \[IMPROVE] Calculate source quality function
+* \[FIX] GUI bugs
+* \[FIX] Major bugs
+* \[FIX] Minor bugs
+
+### Version 3.1.1 (19-03-2022)
+
+* \[IMPROVE] Multi-threading
+* \[IMPROVE] Proxy Testing&#x20;
+* \[IMPROVE] Proxy Judge&#x20;
+* \[FIX] Minor bug
 
 ### Version 3.1.0 (19-01-2022)
 
-* \[IMPROVE] Multithreading
+* \[IMPROVE] Multi-threading
 * \[IMPROVE] Proxy Testing
 * \[IMPROVE] Socket-based requests
 * \[IMPROVE] Performance & resource usage (heavily reducing CPU usage)
@@ -18,7 +55,7 @@
 
 ### Version 3.0.6 (13-11-2021)
 
-* \[UPDATED] Proxyjudges
+* \[UPDATED] Proxy-judges
 * \[FIXED] Minor Bug
 
 ### Version 3.0.5 (07-06-2021)
@@ -27,7 +64,7 @@
 * \[IMPROVED] CPU/RAM usage
 * \[FIXED] Bug caused the autopilot and/or proxy test to get stuck
 * \[FIXED] Negative values in proxy list status
-* \[FIXED] Bug on changing useragents
+* \[FIXED] Bug on changing user-agents
 
 In order to speed up the loading and saving time by a factor of 100x of the proxy database we have updated the database structure. That results in the incompatibility of proxy, source and task databases used in the version 3.0.4 and below. Please export your proxy and source list as text file and import them back in after the update.
 
@@ -43,7 +80,7 @@ In order to speed up the loading and saving time by a factor of 100x of the prox
 * \[IMPROVED] Thread scheduler
 * \[FIXED] IP blocked by license server
 * \[FIXED] Major Bug on testing proxies
-* \[FIXED] Bug on changing useragents
+* \[FIXED] Bug on changing user-agents
 
 ### Version 3.0.3 (02-06-2021)
 
@@ -158,7 +195,7 @@ In order to speed up the loading and saving time by a factor of 100x of the prox
 * \[ADDED] Buttons on upper right corner
 * \[ADDED] Button to update proxy stats manually
 * \[ADDED] Start with Windows feature
-* \[ADDED] Automatical update checking
+* \[ADDED] Automatic update checking
 * \[ADDED] Tick/Untick SSL proxies
 * \[IMPROVED] Some optical improvements on lists on GUI
 * \[IMPROVED] Disabled fullrowselect on lists (default settings)
