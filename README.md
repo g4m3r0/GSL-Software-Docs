@@ -1,4 +1,4 @@
-# Proxy Buddy
+# Proxy Buddy v3
 
 Software Documentation for [Proxy Buddy](https://gsoftwarelab.com/proxy-buddy-scraper-tester/) Version 3.1.0 - Last Update: 2022/05/02
 
@@ -8,7 +8,11 @@ Proxy Buddy is an award-winning proxy scanner and tester that makes it easy to s
 
 ## Purchase
 
-Proxy Buddy can be purchased on our [online shop](https://gsoftwarelab.com/shop/). Orders will be processed instantly, the license key and download link will be shipped by email. For pre-sales questions kindly [contact us](https://gsoftwarelab.com/contact-us/).
+1. Go to our [online shop](https://gsoftwarelab.com/shop/) and add the product to your cart.
+2. Check out and complete your purchase. Your order will be processed instantly.
+3. Once your purchase is complete, you will receive an email with your license key and a download link.
+
+Thank you for considering Proxy Buddy for your needs. We hope it helps you achieve your goals.
 
 ## Installation
 
@@ -22,13 +26,28 @@ The license key is shipped with your order confirmation email. It has to be ente
 
 To prevent typos consider copy and pasting the license key form the order confirmation email. After pasting it make sure there is no white space (" ") in the beginning or at the end of your entered license key. If you have problems activating your product please feel free to contact our support team.
 
+Remember to keep your license key safe, as it will be needed for future activation or updates. If you'd like, you can write it down or print out the order confirmation email for easy reference. Thank you for choosing our product, and we hope it helps you achieve your goals.
+
 ## Trouble Shooting / FAQ
 
-**Q:** Do you provide a free trial version? \
-**A:** We offer a 7-day money-back guarantee on any purchase a free trial is currently not planned.
+**Q:** Is there a way to try your product before committing to a purchase? \
+**A:** We offer a 14-day money-back guarantee on all purchases, so you can feel confident in trying out our product. However, we do not currently have a free trial version available. If you have any further questions or concerns about the product, please don't hesitate to reach out to us. We're always happy to help.
 
-**Q:** I have problems starting the program. \
-**A:** Please check if you have .Net 6.0.1 or later installed on your computer or download it from [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
+**Q:** I'm having trouble starting the program. What should I do?\
+**A:** There could be a few different things that could be causing issues with starting the program. Here are a few things you can try:
 
-**Q:** The program shows that my license key is invalid. \
-**A:** Please check your internet connection and make sure that there is no white space (" ") in the beginning or at the end of your entered/copied license key.
+1. Make sure you have the latest version of .NET (6.0.1 or later) installed on your computer. You can download the latest version from the [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) website.
+2. Check to see if there are any updates available for the program. Sometimes issues can be resolved by simply updating to the latest version.
+3. Try restarting your computer and then attempting to start the program again.
+4. If you're still having issues, try uninstalling and reinstalling the program.
+
+If you've tried all of these steps and are still having problems starting the program, please don't hesitate to reach out to our support team for further assistance.
+
+**Q:** I'm getting an error that my license key is invalid. What could be causing this issue? \
+**A:** There are a few potential causes for this issue:
+
+1. Check your internet connection to ensure that you have a stable connection. This is necessary for the program to verify your license key.
+2. Make sure that there are no extra spaces before or after the license key. Sometimes when copying and pasting, these spaces can be inadvertently added and can cause the key to be invalid.
+3. Check to make sure that you are entering the correct license key. If you have multiple keys or are unsure which key to use, it might be helpful to double-check with whoever provided the key or with our support team.
+
+If you've tried all of these steps and are still having issues with your license key, please don't hesitate to reach out to our support team for further assistance.
