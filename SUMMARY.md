@@ -10,5 +10,4 @@
   * [📖 Software Guide](index-buddy-v2/software-guide.md)
   * [⚙ Changelog](index-buddy-v2/changelog.md)
 * [Traffic Buddy v2](traffic-buddy-v2/README.md)
-  * [📖 Software Guide](traffic-buddy-v2/software-guide.md)
   * [⚙ Changelog](traffic-buddy-v2/changelog.md)
