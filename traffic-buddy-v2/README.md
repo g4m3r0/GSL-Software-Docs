@@ -1,10 +1,6 @@
----
-description: Fast Website, Link and Backlink Indexing Software
----
+# Traffic Buddy v2
 
-# Index Buddy v2
-
-Software Documentation for [Index Buddy](https://gsoftwarelab.com/index-buddy-backlink-indexer/) Version 1.03 - Last Update: 2022/05/02
+Software Documentation for Traffic Buddy Version 2.0.0.0 - Last Update: 2023/01/21
 
 ## Getting Started
 
@@ -12,21 +8,7 @@ Backlinks are a very important part for the ranking of websites in search engine
 
 Index Buddy automatically submits your URLs to thousands of whois, statistics, redirects which results in hundreds or even thousands of backlinks. So Google, Bing and Baidu will get noticed about your URLs. The probability of indexing also highly depends on the quality of the pages’ content. The indexing process depends on secret algorithms used by search giants. To increase the probability of indexing a regular submission of your links and backlinks by Index Buddy will be recommended.
 
-## Purchase
-
-1. Go to our [online shop](https://gsoftwarelab.com/shop/) and add the product to your cart.
-2. Check out and complete your purchase. Your order will be processed instantly.
-3. Once your purchase is complete, you will receive an email with your license key and a download link.
-
-Thank you for considering Proxy Buddy for your needs. We hope it helps you achieve your goals.
-
-## Installation
-
-To download Proxy Buddy use the link in your order confirmation or use the download button in your [customer area](https://gsoftwarelab.com/my-account/downloads/). Proxy Buddy **requires .Net 6.0.1** or later. The .Net 6.0.X installer can be downloaded from [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
-
-## Activation
-
-The license key is shipped with your order confirmation email. It has to be entered on the first application start. It is recommended to write your license key down or to print out the order confirmation email.
+## License Activation
 
 ![License activation](../assets/img/activation.png)
 
