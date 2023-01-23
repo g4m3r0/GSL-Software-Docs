@@ -1,8 +1,8 @@
 # 📖 Software Guide
 
-## Quick Start
+## 1. Quick Start
 
-### Autopilot
+### 1.1. Autopilot Function
 
 The **Autopilot** feature will scrape all proxy sources and test the found proxies afterwards. Proxy Sources will be downloaded from GSL if they are missing. Working proxy server will be added to the Proxy List.
 
@@ -10,14 +10,14 @@ The **Autopilot** feature will scrape all proxy sources and test the found proxi
 
 ![Autopilot](../assets/img/autopilot.gif)
 
-#### **Alternative**
+### **1.2. Alternative Quick Start**
 
 1. **Import** Proxy Sources (URLs) from file or clipboard to scrape proxies by clicking on the **Import** button.
 2. **Scrape** the imported sources for proxies by clicking on the **Scrape** button (**Note:** Scraped proxies wont be tested automatically.).
 3. **Test** the scraped proxies by clicking on the **Test** button.
 4. **Export** the working proxies according to your needs by using the **Export** button.
 
-### Top Menu
+### 1.3. Buttons of the Top Menu
 
 #### **Autopilot**
 
@@ -51,11 +51,11 @@ The **Stop** button will stop all current operations. It can take some minutes u
 
 The **Help** button opens the help page with the software manual in the systems' default browser.
 
-## Proxy Tester
+## 2. Proxy Tester
 
 **Proxy Buddy** is the fastest proxy tester on the market for Windows desktop or server systems. With socket-based multi-threading support, it can test more than 10.000 proxies every minute. It tests proxies for Google Pass (Google Search) and determines the country, speed, anonymity level, SSL support, and the used protocol (e.g. HTTP, HTTPS, SOCK4, SOCKS5). The proxy servers' IP address will be checked for blacklisting in the _stopforumspam_ database as well.
 
-## Proxy List
+### 2.1. Proxy List
 
 ![Proxy List](../assets/img/proxy\_list.png)
 
@@ -77,7 +77,7 @@ The **Help** button opens the help page with the software manual in the systems'
 | Blacklisted   | Displays if the proxy servers' IP address is blacklisted.                 |
 | Last update   | Last time the proxy was updated (e.g. added, tested).                     |
 
-### Context Menu
+### 2.2. Context Menu
 
 ![Proxy List Context Menu](../assets/img/proxy\_list\_context\_menu.png)
 
@@ -101,11 +101,11 @@ The **Help** button opens the help page with the software manual in the systems'
 | Trans.     | Displays the amount of proxy servers with an anonymity level of _Transparent_.                                 |
 | Remaining  | Displays the remaining time in minutes to finish the testing process.                                          |
 
-## Proxy Scraper
+## 3. Proxy Scraper
 
 Proxy Buddy is the best proxy scraper software. It comes with a built-in list of fresh proxy sources. These allow to easily scrape huge lists of Google proxies each and every day. Found proxy lists can be used with all popular SEO software, SEO tools, and bots, including but not limited to GSA Search Engine Ranker, SENuke, Scrapebox.
 
-### Source List
+### 3.1. Source List
 
 ![Source List](../assets/img/source\_list\_blured.png)
 
@@ -117,7 +117,7 @@ Proxy Buddy is the best proxy scraper software. It comes with a built-in list of
 | Quality       | The calculated quality.                               |
 | Last update   | The last time the source was updated.                 |
 
-### Context Menu
+### 3.2. Context Menu
 
 ![Source List Context Menu](../assets/img/source\_list\_context\_menu.png)
 
@@ -129,11 +129,11 @@ Proxy Buddy is the best proxy scraper software. It comes with a built-in list of
 | Tick None         | Disables/Unchecks the checkbox of all sources.                                                            |
 | Calculate Quality | Calculate the quality of the sources according to the tested proxies (from 0 (worse) to 100 (very good)). |
 
-#### Status Bar
+### 3.3. Status Bar
 
 The status bar at the bottom of the source list shows the amount of proxy sources inside the list.
 
-## Task Scheduler
+## 4. Task Scheduler
 
 Proxy Buddy comes with the ability to use advanced scheduling (task-management) features to automate nearly every feature. Tasks only have to be setup once and they will run by themselves after the defined time. Tasks can be created for proxy scraping, testing, filtering, exporting, or sending lists of proxies by email.
 
@@ -160,9 +160,9 @@ Proxy Buddy comes with the ability to use advanced scheduling (task-management) 
 | Remove selected Task | Remove the selected (blue background) task.            |
 | Start selected Task  | Manually start the selected (blue background) task.    |
 
-### Add/Edit Task
+### 4.1. Add/Edit Task
 
-![Action](../assets/img/task\_action.png)
+![Add new Task: Action](../assets/img/task\_action.png)
 
 #### Task Action
 
@@ -202,13 +202,17 @@ Sub-Tasks will be executed right after the parent (this) task has been completed
 
 | Function                                                 | Description                                                                                    |
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Export in Scrapebox/Traffic Buddy format                 | Export proxy servers in the format used by Scrapebox and Traffic Buddy.                        |
-| Path                                                     | Browse the filepath where the exported proxies should be saved.                                |
+| Export in ScrapeBox/Traffic Buddy format                 | Export proxy servers in the format used by ScrapeBox and Traffic Buddy.                        |
+| Path                                                     | Browse the file path where the exported proxies should be saved.                               |
 | Dynamic Filename (Current time appended to the filename) | By adding the current time stamp to the filename previously created files wont be overwritten. |
 
-### Filter
+### 4.2. Filter
 
-Filters are used to filter out proxy servers that should not be included in the action (e.g. To only export working (UP) proxy servers to a file the filter preset _UP_ should be used). If a proxy server should be included in the action the specific checkbox of filter should be checked (e.g. include all online proxies - check the _UP_ checkbox). ![Filter](../assets/img/task\_filter.png)
+Filters are used to filter out proxy servers that should not be included in the action (e.g. To only export working (UP) proxy servers to a file the filter preset _UP_ should be used). If a proxy server should be included in the action the specific checkbox of filter should be checked (e.g. include all online proxies - check the _UP_ checkbox).
+
+&#x20;
+
+<figure><img src="../assets/img/task_filter.png" alt=""><figcaption><p>Add new Task: Filter</p></figcaption></figure>
 
 #### Proxy Status
 
@@ -259,15 +263,14 @@ Filters are used to filter out proxy servers that should not be included in the 
 
 #### Proxy Anonymity Level
 
-| Function                                                                                               | Description                                                           |
-| ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
-| Transparent L3                                                                                         | Filter proxy servers that are Transparent L3 (bad).                   |
-| Anonymous L2                                                                                           | Filter proxy servers that are Anonymous L2 (good).                    |
-| Elite L1                                                                                               | Filter proxy servers that are Elite L1 (very good).                   |
-| Exact level                                                                                            | Use the exact anonymity level of the proxy server.                    |
-| Exact level or higher                                                                                  | Use the exact or higher (better) anonymity level of the proxy server. |
-| ### Proxy Country                                                                                      |                                                                       |
-| Filter country that should be included (e.g. Check Germany to include all proxy servers from Germany). |                                                                       |
+| Function              | Description                                                                                           |
+| --------------------- | ----------------------------------------------------------------------------------------------------- |
+| Transparent L3        | Filter proxy servers that are Transparent L3 (bad).                                                   |
+| Anonymous L2          | Filter proxy servers that are Anonymous L2 (good).                                                    |
+| Elite L1              | Filter proxy servers that are Elite L1 (very good).                                                   |
+| Exact level           | Use the exact anonymity level of the proxy server.                                                    |
+| Exact level or higher | Use the exact or higher (better) anonymity level of the proxy server.                                 |
+| Proxy Country         | Filter country that should be included (e.g. Check Germany to include all proxy servers from Germany) |
 
 #### Filter Presets
 
@@ -277,11 +280,11 @@ Filters are used to filter out proxy servers that should not be included in the 
 | Filter: UP            | Configure the filter to only match up/online proxies.     |
 | Filter: RESET         | Reset all configured filters.                             |
 
-## Settings
+## 5. Settings
 
 On the **Settings** tab, several software parameters can be adjusted. The settings tab can be found in the top menu.
 
-### General Settings
+### 5.1. General Settings
 
 ![General Settings](../assets/img/settings\_general.png)
 
@@ -322,7 +325,7 @@ On the **Settings** tab, several software parameters can be adjusted. The settin
 | License Type   | Display the license type of the activated license key. |
 | Remove License | Remove the activated license from the software.        |
 
-#### Test Settings
+### 5.2. Test Settings
 
 ![Test Settings](../assets/img/settings\_test.png)
 
@@ -359,7 +362,7 @@ On the **Settings** tab, several software parameters can be adjusted. The settin
 | Automatically remove duplicates      | Automatically remove duplicate proxies when importing or scraping proxies. |
 | Automatically remove invalid proxies | Automatically remove invalid proxies from the proxy list while testing.    |
 
-### E-Mail Settings
+### 5.3. E-Mail Settings
 
 ![E-Mail Settings](../assets/img/settings\_email.png)
 
@@ -387,7 +390,7 @@ On the **Settings** tab, several software parameters can be adjusted. The settin
 | Email                  | The E-Mail that should be added to the list.                   |
 | Remove selected E-Mail | Remove the selected E-Mail from the list.                      |
 
-### Upload Settings
+### 5.4. Upload Settings
 
 ![Upload Settings](../assets/img/settings\_ftp.png)
 
@@ -400,11 +403,11 @@ On the **Settings** tab, several software parameters can be adjusted. The settin
 | Limit uploaded proxies to | Limit the number of uploaded proxies.                            |
 | Manually Upload           | Press this button to manually upload a proxy list to the server. |
 
-### Error Log
+### 5.5. Error Log
 
 ![Error Log](../assets/img/settings\_error\_log.png)
 
-| Function               | Description                      |
-| ---------------------- | -------------------------------- |
-| Refresh Logfile        | Read the logfile and display it. |
-| Clear Logs and Logfile | Clears the logfile.              |
+| Function               | Description                                |
+| ---------------------- | ------------------------------------------ |
+| Refresh Logfile        | Read the logfile and display it's content. |
+| Clear Logs and Logfile | Clears the logfile.                        |
