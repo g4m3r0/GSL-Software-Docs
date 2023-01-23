@@ -1,10 +1,14 @@
+---
+description: Coming soon
+---
+
 # Traffic Buddy v2
 
 Software Documentation for Taffic Buddy Version 2.0.0.0 - Last Update: 2023/01/21
 
 ## Getting Started
 
-TODO
+TODO Coming soon
 
 ## Purchase
 

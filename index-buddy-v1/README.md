@@ -1,4 +1,8 @@
-# Index Buddy
+---
+description: Fast Website, Link and Backlink Indexing Software
+---
+
+# Index Buddy v1
 
 Software Documentation for [Index Buddy](https://gsoftwarelab.com/index-buddy-backlink-indexer/) Version 1.03 - Last Update: 2022/05/02
 

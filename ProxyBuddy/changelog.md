@@ -1,4 +1,13 @@
+---
+description: Software Changelog for Proxy Buddy
+---
+
 # ⚙ Changelog
+
+```
+Current Version: 3.3.0
+Date: DD-MM-YYY
+```
 
 ### Version 3.3.0 (11-08-2022)
 

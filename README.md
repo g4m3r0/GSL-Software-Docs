@@ -1,6 +1,6 @@
 # Proxy Buddy v3
 
-Software Documentation for [Proxy Buddy](https://gsoftwarelab.com/proxy-buddy-scraper-tester/) Version 3.1.0 - Last Update: 2022/05/02
+Software Documentation for [Proxy Buddy](https://gsoftwarelab.com/proxy-buddy-scraper-tester/) Version 3.3.0 - Last Update: 2022/08/01
 
 ## Getting Started
 

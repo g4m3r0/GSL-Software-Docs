@@ -1,3 +1,7 @@
+---
+description: Coming soon
+---
+
 # 📖 Software Guide
 
 ### Quick Start
