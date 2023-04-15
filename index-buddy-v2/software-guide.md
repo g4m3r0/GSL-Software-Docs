@@ -8,6 +8,8 @@ Welcome to the Index Buddy V2 Quick Start Guide! This guide will help you effort
 
 ### Quick Start Guide
 
+<figure><img src="../.gitbook/assets/Indexing.gif" alt=""><figcaption><p>Add URLs and start the Indexing Process</p></figcaption></figure>
+
 1. **Import URLs for Indexing**
 
 * Begin by importing the URLs you wish to index. This can be a single URL, an entire website, or a bulk list of URLs.
@@ -26,9 +28,9 @@ Welcome to the Index Buddy V2 Quick Start Guide! This guide will help you effort
 
 With this quick and easy guide, you'll be able to harness the power of Index Buddy V2 to enhance your website's search engine visibility. Happy indexing!
 
-<figure><img src="../.gitbook/assets/Indexing.gif" alt=""><figcaption><p>Add URLs and start the Indexing Process</p></figcaption></figure>
-
 ### Importing URLs
+
+<figure><img src="../.gitbook/assets/Index Buddy - Import.png" alt=""><figcaption></figcaption></figure>
 
 To begin indexing URLs with Index Buddy, you need to first import them. URLs can be imported from the clipboard or a text file by clicking the _Import_ tab. Follow the steps below for each import method:
 
@@ -37,9 +39,9 @@ To begin indexing URLs with Index Buddy, you need to first import them. URLs can
 | Import URLs from File      | Import URLs to be indexed from a text file, with one URL per line.   |
 | Import URLs from Clipboard | Import URLs from the clipboard (copied URLs), with one URL per line. |
 
-<figure><img src="../.gitbook/assets/Index Buddy - Import.png" alt=""><figcaption></figcaption></figure>
-
 ### Customizing Settings
+
+<figure><img src="../.gitbook/assets/Index Buddy - Settings.png" alt=""><figcaption><p>Settings</p></figcaption></figure>
 
 You can adjust various software parameters in the _Settings_ tab, located in the top menu on the left side. To apply any changes, click the _Apply Changes_ button in the bottom right corner.
 
@@ -54,9 +56,9 @@ You can adjust various software parameters in the _Settings_ tab, located in the
 | Apply Changes           |         | Use this button to save changes that were made to the settings. The settings will then be applied on the next indexing process.                         |
 | Deactivate License      |         | Use this option to enter a new license key and remove the current one from the computer.                                                                |
 
-<figure><img src="../.gitbook/assets/Index Buddy - Settings.png" alt=""><figcaption><p>Settings</p></figcaption></figure>
-
 ### Initiating the Indexing Process
+
+<figure><img src="../.gitbook/assets/Index Buddy - Indexing.png" alt=""><figcaption><p>Indexing Process</p></figcaption></figure>
 
 Start the indexing process by clicking the _Index_ button in the top menu. The _Backlinks Sent_ counter will increase once a backlink has been successfully created.
 
@@ -65,14 +67,14 @@ Start the indexing process by clicking the _Index_ button in the top menu. The _
 | Index all Links      | Begin the indexing process for all URLs in the _Index List_.                  |
 | Index selected Links | Initiate the indexing process only for the selected URLs in the _Index List_. |
 
-<figure><img src="../.gitbook/assets/Index Buddy - Indexing.png" alt=""><figcaption><p>Indexing Process</p></figcaption></figure>
-
 | Function             | Description                                                                     |
 | -------------------- | ------------------------------------------------------------------------------- |
 | Index all Links      | The indexing process for all URLs inside the _Index List_ will be started.      |
 | Index selected Links | The indexing process for selected URLs inside the _Index List_ will be started. |
 
 ### Exporting Results
+
+<figure><img src="../.gitbook/assets/Index Buddy - Export.png" alt=""><figcaption><p>Export Backlinks and URLs to Textfiles or as CSV List</p></figcaption></figure>
 
 Generate backlinks or Excel/CSV indexing reports by clicking the _Export_ button in the top menu.
 
@@ -88,9 +90,9 @@ Generate backlinks or Excel/CSV indexing reports by clicking the _Export_ button
 
 When exporting Excel reports, choose the standard format by clicking _YES_ for the US format or _NO_ for the EU format.
 
-<figure><img src="../.gitbook/assets/Index Buddy - Export.png" alt=""><figcaption><p>Export Backlinks and URLs to Textfiles or as CSV List</p></figcaption></figure>
-
 ### Removing URLs
+
+<figure><img src="../.gitbook/assets/Index Buddy - Remove.png" alt=""><figcaption><p>Remove URLs from the List</p></figcaption></figure>
 
 Remove URLs from the _Indexing List_ by clicking the _Remove_ button in the top menu.
 
@@ -98,5 +100,3 @@ Remove URLs from the _Indexing List_ by clicking the _Remove_ button in the top 
 | --------------------- | ---------------------------------------------------- |
 | Remove all Links      | Delete all URLs from the _Index List_.               |
 | Remove Selected Links | Remove only the selected URLs from the _Index List_. |
-
-<figure><img src="../.gitbook/assets/Index Buddy - Remove.png" alt=""><figcaption><p>Remove URLs from the List</p></figcaption></figure>
