@@ -47,7 +47,14 @@ You can adjust various software parameters in the _Settings_ tab, located in the
 
 ![Application Settings](https://chat.openai.com/.gitbook/assets/indexBuddy\_settings.png)
 
-<table><thead><tr><th>Setting</th><th width="89.33333333333331">Default</th><th>Description</th></tr></thead><tbody><tr><td>Maximum Threads</td><td>50</td><td>Set the maximum number of working threads. Increasing the thread count may improve speed but will require more system resources.</td></tr><tr><td>Timeout in ms</td><td>10</td><td>Define the time (in seconds) to wait before canceling a single request. If you have a slow internet connection, consider increasing the timeout to 10s.</td></tr><tr><td>Limit Backlinks per URL</td><td>500</td><td>Set the maximum number of backlinks to create per URL for indexing.</td></tr><tr><td>Enable Dark Mode</td><td>Off</td><td>Set if the dark mode should be enabled or disabled.</td></tr><tr><td>Apply Changes</td><td></td><td>Use this button to save changes that were made to the settings. The settings will then be applied on the next indexing process.</td></tr><tr><td>Deactivate License</td><td></td><td>Use this option to enter a new license key and remove the current one from the computer.</td></tr></tbody></table>
+| Setting                 | Default | Description                                                                                                                                             |
+| ----------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Maximum Threads         | 50      | Set the maximum number of working threads. Increasing the thread count may improve speed but will require more system resources.                        |
+| Timeout in ms           | 10      | Define the time (in seconds) to wait before canceling a single request. If you have a slow internet connection, consider increasing the timeout to 10s. |
+| Limit Backlinks per URL | 500     | Set the maximum number of backlinks to create per URL for indexing.                                                                                     |
+| Enable Dark Mode        | Off     | Set if the dark mode should be enabled or disabled.                                                                                                     |
+| Apply Changes           |         | Use this button to save changes that were made to the settings. The settings will then be applied on the next indexing process.                         |
+| Deactivate License      |         | Use this option to enter a new license key and remove the current one from the computer.                                                                |
 
 ### Initiating the Indexing Process
 

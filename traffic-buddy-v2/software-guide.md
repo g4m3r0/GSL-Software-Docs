@@ -18,7 +18,7 @@ TODO: Gif of adding a campaign
 
 ### Campaigns
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Add Campaign Overview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Add Campaign Overview</p></figcaption></figure>
 
 In the Campaign tab, a comprehensive list of all campaigns can be found on the left side. Simultaneously, the right side displays an embedded view of all the Chromium-based browsers currently in operation.
 
@@ -28,7 +28,7 @@ Traffic Buddy provides a user-friendly interface, featuring buttons located belo
 
 ### Add Campaign
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Add new Campaign</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Add new Campaign</p></figcaption></figure>
 
 When you're ready to add a new campaign in Traffic Buddy, a variety of settings can be tailored to suit your needs. First, you'll be prompted to specify the website URL for the campaign. This is the primary webpage that your campaign will target.
 
@@ -62,7 +62,7 @@ The Browser Settings in Traffic Buddy provide users with the flexibility to modi
 
 ### Plugins
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Plugins</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Plugins</p></figcaption></figure>
 
 Plugins in Traffic Buddy are custom-built JavaScript snippets purpose-built to engage with specified websites. These scripts empower advanced features such as the simulation of user interactions — for instance, clicking on predetermined buttons, or orchestrating a sequence of automated actions. This capability fosters an experience that is both interactive and personalized, enhancing the automated browsing process.
 
