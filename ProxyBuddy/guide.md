@@ -19,35 +19,53 @@ The **Autopilot** feature will scrape all proxy sources and test the found proxi
 
 ### 1.3. Buttons of the Top Menu
 
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Top Menu Buttons</p></figcaption></figure>
+
 #### **Autopilot**
 
-The **Autopilot** will scrape proxy source and test the found proxies afterwards. Proxy Sources will be downloaded from GSL if there are no proxy source inside the list. Working proxy server will be added to the _Proxy List_.
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Autopilot Button</p></figcaption></figure>
+
+The **Autopilot** will scrape proxy source and test the found proxies afterwards. Proxy Sources will be downloaded from GSoftwareLab if there are no proxy source inside the list. Working proxy server will be added to the _Proxy List_.
 
 #### **Test**
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Test Button</p></figcaption></figure>
 
 The **Test** feature allows to manually test proxy servers.
 
 #### **Scrape**
 
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Scrape Button</p></figcaption></figure>
+
 The **Scrape** feature allows to manually scrape proxy source from the _Source List_ Proxy Source can also be downloaded the the GSL servers.
 
 #### **Import**
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Import Button</p></figcaption></figure>
 
 The **Import** feature allows to manually import proxy servers or proxy source from either file or clipboard (_STRG+C_).
 
 #### **Export**
 
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Export Button</p></figcaption></figure>
+
 The **Export** feature allows to manually export proxy servers or proxy source from either file or clipboard (_STRG+V_).
 
 #### **Remove**
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Remove Button</p></figcaption></figure>
 
 The **Remove** feature allows to manually remove proxy servers or proxy source from the lists.
 
 #### **Stop**
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Stop Button</p></figcaption></figure>
+
 The **Stop** button will stop all current operations. It can take some minutes until all threads are shutdown.
 
 #### **Help**
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Help Button</p></figcaption></figure>
 
 The **Help** button opens the help page with the software manual in the systems' default browser.
 
@@ -79,9 +97,13 @@ The **Help** button opens the help page with the software manual in the systems'
 
 ### 2.2. Context Menu
 
+The context menu can be opened by right clicking on the list.
+
 ![Proxy List Context Menu](../assets/img/proxy\_list\_context\_menu.png)
 
 #### Context Menu Description
+
+The context menu can be opened by right clicking on the list.
 
 | Function       | Description                                                                                            |
 | -------------- | ------------------------------------------------------------------------------------------------------ |
@@ -119,9 +141,13 @@ Proxy Buddy is the best proxy scraper software. It comes with a built-in list of
 
 ### 3.2. Context Menu
 
+The context menu can be opened by right clicking on the list.
+
 ![Source List Context Menu](../assets/img/source\_list\_context\_menu.png)
 
 #### Context Menu Description
+
+The context menu can be opened by right clicking on the list.
 
 | Function          | Description                                                                                               |
 | ----------------- | --------------------------------------------------------------------------------------------------------- |
@@ -397,7 +423,7 @@ On the **Settings** tab, several software parameters can be adjusted. The settin
 | Function                  | Description                                                      |
 | ------------------------- | ---------------------------------------------------------------- |
 | FTP Server                | FTP Server                                                       |
-| FTP Path + Filename       | todo                                                             |
+| FTP Path + Filename       | Specify the path and filename (e.g. /home/user/proxy.txt)        |
 | FTP Username              | FTP Username                                                     |
 | FTP Password              | FTP Password                                                     |
 | Limit uploaded proxies to | Limit the number of uploaded proxies.                            |
