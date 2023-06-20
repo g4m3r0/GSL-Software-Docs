@@ -26,7 +26,7 @@ To download Traffic Buddy use the link in your order confirmation or use the dow
 
 The license key is shipped with your order confirmation email. It has to be entered on the first application start. It is recommended to write your license key down or to print out the order confirmation email.
 
-![License activation](../assets/img/activation.png)
+<figure><img src="../.gitbook/assets/license-activation.png" alt=""><figcaption><p>License activation</p></figcaption></figure>
 
 To prevent typos consider copy and pasting the license key form the order confirmation email. After pasting it make sure there is no white space (" ") in the beginning or at the end of your entered license key. If you have problems activating your product please feel free to contact our support team.
 
@@ -40,7 +40,7 @@ Remember to keep your license key safe, as it will be needed for future activati
 **Q:** I'm having trouble starting the program. What should I do?\
 **A:** There could be a few different things that could be causing issues with starting the program. Here are a few things you can try:
 
-1. Make sure you have the latest version of .NET (6.0.1 or later) installed on your computer. You can download the latest version from the [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) website.
+1. Make sure you have the latest version of .NET 6 installed on your computer. You can download the latest version from the [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) website.
 2. Check to see if there are any updates available for the program. Sometimes issues can be resolved by simply updating to the latest version.
 3. Try restarting your computer and then attempting to start the program again.
 4. If you're still having issues, try uninstalling and reinstalling the program.

@@ -26,7 +26,7 @@ The license key is shipped with your order confirmation email. It has to be ente
 
 To prevent typos consider copy and pasting the license key form the order confirmation email. After pasting it make sure there is no white space (" ") in the beginning or at the end of your entered license key. If you have problems activating your product please feel free to contact our support team.
 
-![Product activation](../.gitbook/assets/indexBuddy\_activation.png)
+![Product activation](../.gitbook/assets/activation1.png)
 
 ## Trouble Shooting / FAQ
 
