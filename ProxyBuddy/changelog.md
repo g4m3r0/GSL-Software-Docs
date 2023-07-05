@@ -4,12 +4,127 @@ description: Software Changelog for Proxy Buddy
 
 # ⚙ Changelog
 
-```
-Current Version: 3.3.0
-Date: DD-MM-YYY
-```
+## **Version 3.3.2 (July 5, 2023)**
 
-### Version 3.3.0 (11-08-2022)
+* **Improvements:**
+  * Enhanced Proxy Judge
+  * Advanced Proxy Testing
+  * Improved Source Scraping
+  * General performance boost
+* **Fixes:**
+  * Resolved major bug causing unexpected crashes
+  * Fixed GUI bugs
+
+***
+
+**Version 3.3.1 (February 27, 2023)**
+
+* **Improvements:**
+  * Enhanced Proxy Testing
+  * Improved Source Scraping
+  * Boosted General performance
+  * Upgraded Proxy Judge
+  * Developed Proxy Source
+  * Optimized Database Save/Load
+* **Fixes:**
+  * Resolved autopilot crashing issue
+  * Rectified major bugs
+  * Fixed minor bugs
+
+***
+
+**Version 3.3.0 (November 8, 2022)**
+
+* **Improvements:**
+  * Advanced Proxy Testing
+  * Enhanced Source Scraping
+  * General performance improvement
+  * Upgraded Proxy Judge
+* **Fixes:**
+  * Resolved GUI bugs
+  * Fixed major bugs
+  * Corrected minor bugs
+
+***
+
+**Version 3.2.1 (August 24, 2022)**
+
+* **Fixes:**
+  * Rectified GUI bugs
+  * Corrected minor bugs
+
+***
+
+**Version 3.2.0 (May 24, 2022)**
+
+* **Additions:**
+  * New feature to export proxies in Scrapebox/Traffic Buddy format
+  * Added Busyindicators
+  * Integrated update StopForumSpam DB feature
+* **Improvements:**
+  * Enhanced Proxy Testing
+  * Improved Source Scraping
+  * General performance boost
+  * Upgraded Proxy Source
+  * Improved License activation process
+  * Better Calculate source quality function
+* **Fixes:**
+  * Resolved GUI bugs
+  * Fixed major bugs
+  * Rectified minor bugs
+
+***
+
+**Version 3.1.1 (March 19, 2022)**
+
+* **Improvements:**
+  * Better Multithreading
+  * Advanced Proxy Testing
+  * Enhanced Proxy Judge
+* **Fixes:**
+  * Fixed minor bug
+
+***
+
+**Version 3.1.0 (January 19, 2022)**
+
+* **Improvements:**
+  * Better Multithreading
+  * Improved Proxy Testing
+  * Advanced Socket-based requests
+  * Enhanced Performance & resource usage (significantly reduced CPU usage)
+  * Improved Autopilot function (Auto download source when missing)
+  * Upgraded to .Net 6
+  * Refined Documentation
+* **Fixes:**
+  * Rectified GUI bugs
+  * Fixed minor bugs
+
+***
+
+**Version 3.0.6 (November 13, 2021)**
+
+* **Updates:**
+  * Updated GEO IP Database
+  * Renewed Proxyjudges
+* **Fixes:**
+  * Fixed minor bug
+
+***
+
+**Version 3.0.5 (June 7, 2021)**
+
+* **Improvements:**
+  * Enhanced DB loading/saving performance
+  * Reduced CPU/RAM usage
+* **Fixes:**
+  * Resolved bug causing the autopilot and/or proxy test to get stuck
+  * Fixed negative values in proxy list status
+  * Corrected bug on changing useragents
+
+***
+
+**Important Note:** In order to significantly speed up the loading and saving time of the proxy database, we have updated the database structure. This results in the incompatibility of proxy, source and task databases used in version 3.0.4 and below. We advise exporting your proxy and source list as a text file and importing them back in after the update.
 
 * \[IMPROVE] Proxy Testing
 * \[IMPROVE] Source Scraping
