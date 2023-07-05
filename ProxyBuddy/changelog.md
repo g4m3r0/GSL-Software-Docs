@@ -4,7 +4,7 @@ description: Software Changelog for Proxy Buddy
 
 # ⚙ Changelog
 
-## **Version 3.3.2 (July 5, 2023)**
+**Version 3.3.2 (July 5, 2023)**
 
 * **Improvements:**
   * Enhanced Proxy Judge
