@@ -4,6 +4,25 @@ description: Changelog of Traffic Buddy
 
 # ⚙ Changelog
 
+## Version 2.0.2 (August 6, 2023)
+### New Features
+
+- **Ability to import proxies**: Seamlessly import proxies in the scrapebox format.
+- **Enhanced Proxy Editing**: Capability to edit proxies with authentication.
+- **Sentry Error Tracking**: Integrated sentry error tracking for better diagnostics.
+- **Browser Address Display**: Easily view the current address of your browser.
+- **Plugin Editing**: Added functionality to modify plugins as per user needs.
+
+### Bug Fixes
+
+- **Campaign View Reset Bug**: Resolved an issue where editing a campaign resets views.
+
+### Improvements
+
+- **Refactoring**: Multiple improvements and code optimization for better performance.
+- **Updated Credits**: Year in credits updated for a current feel.
+- **Enhanced Messaging**: Improved clarity and relevance of messages within the software.
+
 ## Version 2.0.1 (June 2, 2023)
 
 ### New Features
