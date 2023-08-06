@@ -1,14 +1,22 @@
 ---
-description: Coming soon
+description: 'Traffic Buddy: The Pinnacle of Web Traffic Automation!'
 ---
 
 # Traffic Buddy v2
 
-Software Documentation for Taffic Buddy Version 2.0.0.0 - Last Update: 2023/01/21
+Software Documentation for Traffic Buddy Version 2.0.0
 
-## Getting Started
+## 🚀 **Introducing Traffic Buddy** 🚀
 
-TODO Coming soon
+Unleash the power of seamless web traffic management with Traffic Buddy! Dive deep into a platform crafted for modern web needs. Whether you're coordinating multi-faceted campaigns or refining the subtleties of browser interactions, Traffic Buddy has you covered.
+
+🔥 **Key Features**:
+
+1. **Streamlined Campaign Management**: Effortlessly set up and oversee your campaigns with intuitive tools.
+2. **Custom JavaScript Plugin Support**: Elevate your web presence with interactive plugins tailored to captivate your audience.
+3. **Optimized Browsing Experiences**: Tweak to perfection with our advanced browser and proxy settings.
+
+Take command of your traffic like never before. Discover, learn, and excel with Traffic Buddy! 🌐🔧
 
 ## Purchase
 
@@ -20,7 +28,7 @@ Thank you for considering Proxy Buddy for your needs. We hope it helps you achie
 
 ## Installation
 
-To download Traffic Buddy use the link in your order confirmation or use the download button in your [customer area](https://gsoftwarelab.com/my-account/downloads/). Traffic Buddy **requires .Net 6.0.1** or later. The .Net 6.0.X installer can be downloaded from [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
+To download Traffic Buddy use the link in your order confirmation or use the download button in your [customer area](https://gsoftwarelab.com/my-account/downloads/). Traffic Buddy **requires .Net 6.0.1** or later. The .Net 6.0.X installer can be downloaded from [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). For the software to function properly, C++ Redistributable (64-bit) is required, which can be downloaded from [https://aka.ms/vs/17/release/vc\_redist.x64.exe](https://aka.ms/vs/17/release/vc\_redist.x64.exe).
 
 ## Activation
 
