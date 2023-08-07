@@ -4,7 +4,7 @@ description: 'Traffic Buddy: The Pinnacle of Web Traffic Automation!'
 
 # Traffic Buddy v2
 
-Software Documentation for Traffic Buddy Version 2.0.0
+Software Documentation for Traffic Buddy Version 2
 
 ## 🚀 **Introducing Traffic Buddy** 🚀
 

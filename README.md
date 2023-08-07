@@ -1,6 +1,10 @@
+---
+description: Fully Automated Proxy Scraper and Tester
+---
+
 # Proxy Buddy v3
 
-Software Documentation for [Proxy Buddy](https://gsoftwarelab.com/proxy-buddy-scraper-tester/) Version 3.3.0 - Last Update: 2022/08/01
+Software Documentation for [Proxy Buddy](https://gsoftwarelab.com/proxy-buddy-scraper-tester/) Version 3
 
 ## Getting Started
 
