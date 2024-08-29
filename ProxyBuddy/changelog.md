@@ -1,8 +1,8 @@
 ---
-description: Software Changelog for Proxy Buddy
+description: Changelog for Proxy Buddy
 ---
 
-# ⚙ Changelog
+# ⚙️ Changelog
 
 **Version 3.3.2 (July 5, 2023)**
 

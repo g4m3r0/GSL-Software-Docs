@@ -1,8 +1,8 @@
 ---
-description: Coming soon
+description: Changelog of Index Buddy
 ---
 
-# ⚙ Changelog
+# ⚙️ Changelog
 
 ### Version 2.0.0
 

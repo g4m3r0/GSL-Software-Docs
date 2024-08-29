@@ -1,4 +1,8 @@
-# ⚙ Changelog
+---
+description: Changelog of Index Buddy
+---
+
+# ⚙️ Changelog
 
 ### Version 1.0.3 (14-01-2021)
 
