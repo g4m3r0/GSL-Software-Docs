@@ -10,7 +10,19 @@ Learn how to add campaigns, customize viewing metrics, and automate user behavio
 
 This manual will serve as your go-to resource, whether you're a new user or a seasoned veteran, on your journey towards creating powerful and automated browsing experiences with Traffic Buddy.
 
-### Quick Start Guide
+### Quick Start Guide for Traffic Buddy
+
+Welcome to the **Quick Start Guide** for Traffic Buddy! This guide will walk you through the essential steps to set up and start your first campaign efficiently.
+
+Should Cover:
+
+* Add Campaign
+  * Configure URL
+  * Add different actions
+  * Add a referrer
+  * Add a device
+* Add Proxy Servers
+* Start the campaign
 
 TODO: Gif of adding a campaign
 
@@ -20,27 +32,39 @@ TODO: Gif of adding a campaign
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Add Campaign Overview</p></figcaption></figure>
 
-In the Campaign tab, a comprehensive list of all campaigns can be found on the left side. Simultaneously, the right side displays an embedded view of all the Chromium-based browsers currently in operation.
+In the **Campaign** tab, you will find a comprehensive list of all your campaigns, allowing for easy navigation and management. At the bottom of this section, the current status of ongoing actions is displayed in real time, giving you instant feedback on your campaigns’ performance.&#x20;
 
-Traffic Buddy provides a user-friendly interface, featuring buttons located below the campaign list, that enables you to manage your campaigns efficiently. These functions include the ability to add, edit, or remove campaigns, as well as start, stop, or reset them, providing complete control over your campaign management process.
+Traffic Buddy features a **user-friendly interface** with intuitive buttons located below the campaign list. These buttons enable you to manage your campaigns efficiently, offering functionalities such as:
 
-<table data-view="cards"><thead><tr><th>Button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (22).png" alt=""></td><td>Add new Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (8).png" alt=""></td><td>Edit selected Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (16).png" alt=""></td><td>Remove selected Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (11).png" alt=""></td><td>Start selected Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (2).png" alt=""></td><td>Stop selected Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (20).png" alt=""></td><td>Reset view counter of selected campaign</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (22).png" alt=""></td><td><strong>Add Campaign</strong>: Quickly create new campaigns tailored to your needs.</td></tr><tr><td><img src="../.gitbook/assets/image (8).png" alt=""></td><td><strong>Edit Campaign</strong>: Modify existing campaigns to optimize performance.</td></tr><tr><td><img src="../.gitbook/assets/image (16).png" alt=""></td><td><strong>Remove Campaign</strong>: Delete campaigns that are no longer needed.</td></tr><tr><td><img src="../.gitbook/assets/image (11).png" alt=""></td><td><strong>Start Campaign</strong>: Launch your campaigns with a single click.</td></tr><tr><td><img src="../.gitbook/assets/image (2).png" alt=""></td><td><strong>Stop Campaign</strong>: Pause campaigns whenever necessary.</td></tr><tr><td><img src="../.gitbook/assets/image (20).png" alt=""></td><td><strong>Reset View Count</strong>: Reset campaigns to view count.</td></tr></tbody></table>
 
-### Add Campaign
+### Add a new Campaign
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Add new Campaign</p></figcaption></figure>
 
-When you're ready to add a new campaign in Traffic Buddy, a variety of settings can be tailored to suit your needs. First, you'll be prompted to specify the website URL for the campaign. This is the primary webpage that your campaign will target.
 
-Next, you can set the number of threads for your campaign. Each thread corresponds to a separate Chromium-based web browser that will interact with the specified website, offering a scalable approach to manage your browsing sessions.
 
-After that, you can determine the number of views that your campaign will generate. Along with the views, you can also define the duration of the watch time on the website. This allows for more precise interaction with the website in terms of user engagement metrics.
+#### General Settings
 
-In addition, you can control the delay between views. This ensures the views appear natural and organically spread over time, rather than occurring simultaneously.
 
-Another powerful feature is setting the origin, or the referrer, of the traffic. This can either be direct, from a search engine such as Google with a specific keyword like "SEO Application," or from multiple referrers. If multiple referrers are chosen, they will be selected randomly, further mimicking organic user behavior.
 
-Finally, you also have the option to explore and interact with inner URLs of the website. This feature enhances the browsing session to mimic more engaged user behavior by visiting various pages of the website. You can determine the watch time, delay, and the number of inner pages that should be visited, allowing for a deeper and more comprehensive interaction with the site during each browsing session.
+#### Traffic Origin
+
+
+
+#### Browser Actions
+
+
+
+#### Browser Settings
+
+
+
+#### Device Emulation
+
+
+
+
 
 ### Proxy Settings
 
@@ -54,32 +78,27 @@ Additional settings provide enhanced control over your browsing experience. Feat
 
 We are also excited to announce that support for Tor proxies will be integrated into our system in the near future. This upcoming feature will provide our users with another layer of security and anonymity during web browsing.
 
-### Browser Settings
-
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Browser Settings</p></figcaption></figure>
-
 The Browser Settings in Traffic Buddy provide users with the flexibility to modify various browsing preferences at a global level. These options include enabling or disabling the execution of JavaScript, controlling the loading of images, as well as setting the browser's locale and language. This feature ensures a more personalized and optimized browsing experience.
 
-### Plugins
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Plugins</p></figcaption></figure>
 
-Plugins in Traffic Buddy are custom-built JavaScript snippets purpose-built to engage with specified websites. These scripts empower advanced features such as the simulation of user interactions — for instance, clicking on predetermined buttons, or orchestrating a sequence of automated actions. This capability fosters an experience that is both interactive and personalized, enhancing the automated browsing process.
+### Top Menu
 
-Furthermore, these plugins are designed to be triggered automatically when the URL of the website includes the predefined "URL contains" variable, ensuring seamless interaction with the desired elements of the site.
+**File Menu**
 
-<table data-view="cards"><thead><tr><th>Button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (22).png" alt=""></td><td>Add new Plugin</td></tr><tr><td><img src="../.gitbook/assets/image (16).png" alt=""></td><td>Remove selected Plugin</td></tr></tbody></table>
+* **Load/Save Campaign**: Quickly save your current campaign settings or load a previously saved campaign for easy access and management.
+* **Delete All Campaigns**: Clear all existing campaigns with a single click. Use this option with caution, as it will remove all campaign data permanently.
+* **Exit the Application**: Close Traffic Buddy gracefully, ensuring that all settings and changes are saved.
 
-### Add Plugin
+**Proxy Menu**
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Add new Plugin</p></figcaption></figure>
+* **Import Proxies from Clipboard**: Easily import proxies in various formats (HTTP, HTTPS, SOCKS, and ProxyBuddy/Scrapebox) directly from your clipboard for quick setup.
+* **Import Proxies from Text File**: Load proxies from a text file using supported formats (HTTP, HTTPS, SOCKS, and ProxyBuddy/Scrapebox) to streamline your configuration process.
+* **Download a List of Pre-Scraped Public Proxies**: Access a curated list of public proxies suitable for scraping tasks, giving you a head start on your projects.
+* **Recommendation**: We recommend using **private proxy servers** or **residential proxy servers** for enhanced performance and security.
 
-When introducing a new plugin to Traffic Buddy, various settings can be tailored to meet your needs. Firstly, you will need to designate a unique 'Plugin Name' to identify the plugin within the system.
+**Help Menu**
 
-Next, you'll define the 'JavaScript Code' to be executed. This is where you provide the custom JavaScript that the plugin will run on the target website.
-
-Further customization is allowed with 'Execution Delays.' You can set both a 'Delay Before Execution,' which is a pause before the JavaScript is run, and a 'Delay After Execution,' which is a pause following the completion of the script. These delays provide control over the timing of the plugin's operation and can be tailored to mimic real user behaviors or meet specific website requirements.
-
-An important feature to note is the 'URL Must Contain' field. Here, you enter a specific string, and the JavaScript will only be executed if the website's URL contains this string. This enables the automatic and targeted execution of plugins on the appropriate web pages.
-
-Finally, if you wish to monitor the execution of the plugin and any potential output, you can enable the 'Output Log to the Console' option. This feature logs the results of the plugin's execution to the system's console, allowing for easy tracking and debugging.
+* **Contact Us**: Reach out for support or inquiries. Our team is here to assist you with any questions or issues you may encounter.
+* **Browse the Documentation**: Navigate through comprehensive documentation to find detailed guides, tips, and troubleshooting information.
+* **Remove Your License Key from the Software**: Safely remove your license key if needed, ensuring that your software is deactivated before uninstalling or transferring it to another device.
