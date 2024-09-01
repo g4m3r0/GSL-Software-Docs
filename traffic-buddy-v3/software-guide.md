@@ -26,13 +26,11 @@ Should Cover:
 
 TODO: Gif of adding a campaign
 
-
-
 ### Campaigns
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Add Campaign Overview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Campaign Overview</p></figcaption></figure>
 
-In the **Campaign** tab, you will find a comprehensive list of all your campaigns, allowing for easy navigation and management. At the bottom of this section, the current status of ongoing actions is displayed in real time, giving you instant feedback on your campaigns’ performance.&#x20;
+In the **Campaign** tab, you will find a comprehensive list of all your campaigns, allowing for easy navigation and management. At the bottom of this section, the current status of ongoing actions is displayed in real time, giving you instant feedback on your campaigns’ performance.
 
 Traffic Buddy features a **user-friendly interface** with intuitive buttons located below the campaign list. These buttons enable you to manage your campaigns efficiently, offering functionalities such as:
 
@@ -40,35 +38,21 @@ Traffic Buddy features a **user-friendly interface** with intuitive buttons loca
 
 ### Add a new Campaign
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Add new Campaign</p></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Add a new Campaign</p></figcaption></figure>
 
 #### General Settings
 
-
-
 #### Traffic Origin
-
-
 
 #### Browser Actions
 
-
-
 #### Browser Settings
-
-
 
 #### Device Emulation
 
-
-
-
-
 ### Proxy Settings
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Proxy Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Proxy Settings</p></figcaption></figure>
 
 The Proxy Settings in Traffic Buddy provide a feature to configure the use of a proxy server for website browsing. The application supports various proxy protocols including HTTP, HTTPS, Socks4, and Socks5. You can add new proxy servers by navigating to the "Proxy" option in the top menu strip.
 
@@ -80,9 +64,9 @@ We are also excited to announce that support for Tor proxies will be integrated 
 
 The Browser Settings in Traffic Buddy provide users with the flexibility to modify various browsing preferences at a global level. These options include enabling or disabling the execution of JavaScript, controlling the loading of images, as well as setting the browser's locale and language. This feature ensures a more personalized and optimized browsing experience.
 
-
-
 ### Top Menu
+
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Top Menu</p></figcaption></figure>
 
 **File Menu**
 
