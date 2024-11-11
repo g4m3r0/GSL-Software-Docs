@@ -268,38 +268,103 @@ Browse through a comprehensive collection of devices including:
 
 ⚠️ **Important:** The more devices you select, the more diverse your traffic will appear in analytics.
 
-### Proxy Settings
+## Proxy Settings
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Proxy Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Proxy Settings Configuration - Manage and configure proxy servers for enhanced anonymity</p></figcaption></figure>
 
-The Proxy Settings in Traffic Buddy provide a feature to configure the use of a proxy server for website browsing. The application supports various proxy protocols including HTTP, HTTPS, Socks4, and Socks5. You can add new proxy servers by navigating to the "Proxy" option in the top menu strip.
+The Proxy Settings Tab enables you to configure and manage proxy servers for your traffic campaigns, providing control over IP addresses and locations used for website visits.
 
-For convenience, Traffic Buddy also offers the ability to download a list of pre-scraped and tested public proxy servers.
+### Core Features
 
-Additional settings provide enhanced control over your browsing experience. Features include the ability to disable non-functional proxies, verify proxy servers before engaging them with the web browser, and filter proxy servers by country, allowing users to exclude proxies from one or multiple countries.
+#### Proxy Server List
 
-We are also excited to announce that support for Tor proxies will be integrated into our system in the near future. This upcoming feature will provide our users with another layer of security and anonymity during web browsing.
+* Central display of all configured proxy servers
+* Shows proxy details:
+  * IP address and port
+  * Protocol type (HTTP, HTTPS, SOCKS4, SOCKS5)
+  * Country location
+  * Current status
 
-The Browser Settings in Traffic Buddy provide users with the flexibility to modify various browsing preferences at a global level. These options include enabling or disabling the execution of JavaScript, controlling the loading of images, as well as setting the browser's locale and language. This feature ensures a more personalized and optimized browsing experience.
+#### Adding Proxy Servers
 
-### Top Menu
+Access through top menu: "Proxy" →
+
+* "Add from file": Import proxy list from text file
+* "Add from clipboard": Paste proxy list directly
+* Download pre-scraped public proxies (tested and verified)
+
+### Configuration Options
+
+#### **Proxy Control Settings**
+
+* **Test Proxy Server Before Browsing**
+  * Toggle ON/OFF
+  * Verifies proxy functionality before use
+  * Prevents failed connections
+* **Disable Down Proxies**
+  * Toggle ON/OFF
+  * Automatically removes non-responding proxies
+  * Maintains clean, functional proxy list
+* **Scrape Proxies from File** _(Coming Soon)_
+  * Toggle ON/OFF
+  * Automatically import proxies from specified file
+  * Regular updates of proxy list
+* **Tor Proxy Support** _(Coming Soon)_
+  * Toggle ON/OFF
+  * Enhanced anonymity through Tor network
+  * Additional security layer
+
+#### **Country Filtering**
+
+* Filter proxies by country
+* Remove proxies from specific countries
+* Useful for:
+  * Targeting specific geographic locations
+  * Avoiding blocked regions
+  * Creating location-specific traffic patterns
+
+📝 **Note:** Regular proxy testing and updates are recommended for optimal performance.&#x20;
+
+⚠️ **Important:** Ensure proxy servers comply with target website's terms of service.&#x20;
+
+💡 **Tip:** Use a mix of proxy types and locations for more natural traffic patterns.
+
+### Proxy Recommendations
+
+**Best Practices for Optimal Results**
+
+* **Private Residential Proxies Recommended**
+  * Provides highest success rates
+  * Most reliable performance
+  * Better mimicking of real user behavior
+  * Reduced chance of detection
+
+**Why Private Residential Proxies?**
+
+* Exclusive access (not shared with other users)
+* Higher success rates for traffic generation
+* More stable connections
+* Better geographic targeting accuracy
+* Reduced risk of IP blacklisting
+
+## Top Menu
 
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Top Menu</p></figcaption></figure>
 
-**File Menu**
+### **File Menu**
 
 * **Load/Save Campaign**: Quickly save your current campaign settings or load a previously saved campaign for easy access and management.
 * **Delete All Campaigns**: Clear all existing campaigns with a single click. Use this option with caution, as it will remove all campaign data permanently.
 * **Exit the Application**: Close Traffic Buddy gracefully, ensuring that all settings and changes are saved.
 
-**Proxy Menu**
+### **Proxy Menu**
 
 * **Import Proxies from Clipboard**: Easily import proxies in various formats (HTTP, HTTPS, SOCKS, and ProxyBuddy/Scrapebox) directly from your clipboard for quick setup.
 * **Import Proxies from Text File**: Load proxies from a text file using supported formats (HTTP, HTTPS, SOCKS, and ProxyBuddy/Scrapebox) to streamline your configuration process.
 * **Download a List of Pre-Scraped Public Proxies**: Access a curated list of public proxies suitable for scraping tasks, giving you a head start on your projects.
 * **Recommendation**: We recommend using **private proxy servers** or **residential proxy servers** for enhanced performance and security.
 
-**Help Menu**
+### **Help Menu**
 
 * **Contact Us**: Reach out for support or inquiries. Our team is here to assist you with any questions or issues you may encounter.
 * **Browse the Documentation**: Navigate through comprehensive documentation to find detailed guides, tips, and troubleshooting information.
