@@ -14,17 +14,9 @@ This manual will serve as your go-to resource, whether you're a new user or a se
 
 Welcome to the **Quick Start Guide** for Traffic Buddy! This guide will walk you through the essential steps to set up and start your first campaign efficiently.
 
-Should Cover:
-
-* Add Campaign
-  * Configure URL
-  * Add different actions
-  * Add a referrer
-  * Add a device
-* Add Proxy Servers
-* Start the campaign
-
-TODO: Gif of adding a campaign
+{% embed url="https://vimeo.com/1029029240" %}
+Unlocking Traffic Buddy: Your Ultimate Guide to Generating Organic Traffic
+{% endembed %}
 
 ## Campaigns
 
