@@ -18,17 +18,17 @@ TODO: Gif of adding a campaign
 
 ### Campaigns
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Add Campaign Overview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Add Campaign Overview</p></figcaption></figure>
 
 In the Campaign tab, a comprehensive list of all campaigns can be found on the left side. Simultaneously, the right side displays an embedded view of all the Chromium-based browsers currently in operation.
 
 Traffic Buddy provides a user-friendly interface, featuring buttons located below the campaign list, that enables you to manage your campaigns efficiently. These functions include the ability to add, edit, or remove campaigns, as well as start, stop, or reset them, providing complete control over your campaign management process.
 
-<table data-view="cards"><thead><tr><th>Button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (22).png" alt=""></td><td>Add new Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (8).png" alt=""></td><td>Edit selected Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (16).png" alt=""></td><td>Remove selected Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (11).png" alt=""></td><td>Start selected Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (2).png" alt=""></td><td>Stop selected Campaign</td></tr><tr><td><img src="../.gitbook/assets/image (20).png" alt=""></td><td>Reset view counter of selected campaign</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/image (22).png" alt=""></td><td>Add new Campaign</td></tr><tr><td><img src="../../.gitbook/assets/image (8).png" alt=""></td><td>Edit selected Campaign</td></tr><tr><td><img src="../../.gitbook/assets/image (16).png" alt=""></td><td>Remove selected Campaign</td></tr><tr><td><img src="../../.gitbook/assets/image (11).png" alt=""></td><td>Start selected Campaign</td></tr><tr><td><img src="../../.gitbook/assets/image (2).png" alt=""></td><td>Stop selected Campaign</td></tr><tr><td><img src="../../.gitbook/assets/image (20).png" alt=""></td><td>Reset view counter of selected campaign</td></tr></tbody></table>
 
 ### Add Campaign
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Add new Campaign</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Add new Campaign</p></figcaption></figure>
 
 When you're ready to add a new campaign in Traffic Buddy, a variety of settings can be tailored to suit your needs. First, you'll be prompted to specify the website URL for the campaign. This is the primary webpage that your campaign will target.
 
@@ -44,7 +44,7 @@ Finally, you also have the option to explore and interact with inner URLs of the
 
 ### Proxy Settings
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Proxy Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Proxy Settings</p></figcaption></figure>
 
 The Proxy Settings in Traffic Buddy provide a feature to configure the use of a proxy server for website browsing. The application supports various proxy protocols including HTTP, HTTPS, Socks4, and Socks5. You can add new proxy servers by navigating to the "Proxy" option in the top menu strip.
 
@@ -56,23 +56,23 @@ We are also excited to announce that support for Tor proxies will be integrated 
 
 ### Browser Settings
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Browser Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Browser Settings</p></figcaption></figure>
 
 The Browser Settings in Traffic Buddy provide users with the flexibility to modify various browsing preferences at a global level. These options include enabling or disabling the execution of JavaScript, controlling the loading of images, as well as setting the browser's locale and language. This feature ensures a more personalized and optimized browsing experience.
 
 ### Plugins
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Plugins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Plugins</p></figcaption></figure>
 
 Plugins in Traffic Buddy are custom-built JavaScript snippets purpose-built to engage with specified websites. These scripts empower advanced features such as the simulation of user interactions — for instance, clicking on predetermined buttons, or orchestrating a sequence of automated actions. This capability fosters an experience that is both interactive and personalized, enhancing the automated browsing process.
 
 Furthermore, these plugins are designed to be triggered automatically when the URL of the website includes the predefined "URL contains" variable, ensuring seamless interaction with the desired elements of the site.
 
-<table data-view="cards"><thead><tr><th>Button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (22).png" alt=""></td><td>Add new Plugin</td></tr><tr><td><img src="../.gitbook/assets/image (16).png" alt=""></td><td>Remove selected Plugin</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/image (22).png" alt=""></td><td>Add new Plugin</td></tr><tr><td><img src="../../.gitbook/assets/image (16).png" alt=""></td><td>Remove selected Plugin</td></tr></tbody></table>
 
 ### Add Plugin
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Add new Plugin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Add new Plugin</p></figcaption></figure>
 
 When introducing a new plugin to Traffic Buddy, various settings can be tailored to meet your needs. Firstly, you will need to designate a unique 'Plugin Name' to identify the plugin within the system.
 

@@ -34,7 +34,7 @@ To download Traffic Buddy use the link in your order confirmation or use the dow
 
 The license key is shipped with your order confirmation email. It has to be entered on the first application start. It is recommended to write your license key down or to print out the order confirmation email.
 
-<figure><img src="../.gitbook/assets/license-activation.png" alt=""><figcaption><p>License activation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/license-activation.png" alt=""><figcaption><p>License activation</p></figcaption></figure>
 
 To prevent typos consider copy and pasting the license key form the order confirmation email. After pasting it make sure there is no white space (" ") in the beginning or at the end of your entered license key. If you have problems activating your product please feel free to contact our support team.
 
