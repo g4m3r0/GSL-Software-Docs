@@ -14,8 +14,12 @@ This manual will serve as your go-to resource, whether you're a new user or a se
 
 Welcome to the **Quick Start Guide** for Traffic Buddy! This guide will walk you through the essential steps to set up and start your first campaign efficiently.
 
-{% embed url="https://vimeo.com/1029029240" %}
+{% embed url="https://www.youtube.com/watch?v=Ky4dJbjddI4" %}
 Unlocking Traffic Buddy: Your Ultimate Guide to Generating Organic Traffic
+{% endembed %}
+
+{% embed url="https://www.youtube.com/watch?v=anj0mF0bdNc" %}
+Traffic Buddy: Generate and Verify Real User Traffic with Google Analytics
 {% endembed %}
 
 ## Campaigns
