@@ -151,7 +151,25 @@ You can configure multiple referrer sources that Traffic Buddy will cycle throug
 
 <figure><img src="../.gitbook/assets/Add-Actions.gif" alt=""><figcaption><p>Browser Actions Tab - Create your visitor's journey step by step</p></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/campaign actions.png" alt="Automated Browser Action Flow"><figcaption></figcaption></figure>
+
 In this tab, you configure the sequence of actions that each simulated visitor will perform. Actions are executed in order from top to bottom, creating realistic user behavior patterns.
+
+The following table show the available actions and a description.
+
+| Action Name               | Description                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Visit URL                 | Visit a website or URL.                                                                                                                                                                                                                                                                                                                                   |
+| Visit Random Link On Page | The browser clicks on one link which is present of the website.                                                                                                                                                                                                                                                                                           |
+| Simulate Human Behavior   | The browser simultes human behavior for a defined amount of seconds. This includes scrolling the page, reading content (waiting), scrolling to links, and clicking on links.                                                                                                                                                                              |
+| Wait / Delay              | The browser will wait for a specified amount of seconds.                                                                                                                                                                                                                                                                                                  |
+| Cick Button or Link       | The browser will click on a button, link or element. You have to specify the query selector for the element to click.                                                                                                                                                                                                                                     |
+| Scroll to Element         | The browser will scroll to a button, link or element. You have to specify the query selector for the element to click.                                                                                                                                                                                                                                    |
+| Google Search             | This action will preform a google seach for your specified keyword and domain. You need to enter your keyword and domain. Traffic Buddy will search on google for your keyword, if your website will be found it clicks on your website. This will send a ranking signal to google. This action only works when your website already links for a keyword. |
+| Set Cookie                | Set a website cookie.                                                                                                                                                                                                                                                                                                                                     |
+| Clear Cookies             | Clears all website cookie in a session (view). Cookies are not shared between sessions (views).                                                                                                                                                                                                                                                           |
+
+**Detailed Action Description:**
 
 **⭐ 1. Primary Action: Visit URL**
 
