@@ -10,6 +10,8 @@ Learn how to add campaigns, customize viewing metrics, and automate user behavio
 
 This manual will serve as your go-to resource, whether you're a new user or a seasoned veteran, on your journey towards creating powerful and automated browsing experiences with Traffic Buddy.
 
+If you want a quick overview about the feature of Traffic Buddy visit our [product page](https://gsoftwarelab.com/organic-website-traffic-bot/).
+
 ## Quick Start Guide for Traffic Buddy
 
 Welcome to the **Quick Start Guide** for Traffic Buddy! This guide will walk you through the essential steps to set up and start your first campaign efficiently.
@@ -24,13 +26,28 @@ Traffic Buddy: Generate and Verify Real User Traffic with Google Analytics
 
 ## Campaigns
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Campaign Overview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/campaign overview.png" alt="Traffic Campaign Overview"><figcaption></figcaption></figure>
 
 In the **Campaign** tab, you will find a comprehensive list of all your campaigns, allowing for easy navigation and management. At the bottom of this section, the current status of ongoing actions is displayed in real time, giving you instant feedback on your campaigns’ performance.
 
+The following table provides a detailed description of each column within the campaign list, ensuring clarity and ease of use. Each column is designed to display crucial information regarding your campaigns, such as the campaign name, status, start and end dates, and active metrics. This organized layout allows you to quickly assess and manage your campaigns' vital statistics.
+
+| Column Name | Description                                                                                                           |
+| ----------- | --------------------------------------------------------------------------------------------------------------------- |
+| Status      | The current status of the campaign. It can be Running, Stopping, Stopped or Paued.                                    |
+| #B          | The number of currently running browser instances.                                                                    |
+| ID          | The unique identifier of the campaign.                                                                                |
+| Name        | The human readable name of the campaign.                                                                              |
+| Views       | The current amount of views that were generated in the campaign.                                                      |
+| #VT         | The number of generated views today.                                                                                  |
+| #A          | The total number of executed actions.                                                                                 |
+| #SA         | The total number of successfully executed actions.                                                                    |
+| #FA         | The total number of failed actions.                                                                                   |
+| Max Views   | The maximum number of views this campaign will generate. The campaign will stop when this threshold has been reached. |
+
 Traffic Buddy features a **user-friendly interface** with intuitive buttons located below the campaign list. These buttons enable you to manage your campaigns efficiently, offering functionalities such as:
 
-<table data-view="cards"><thead><tr><th>Button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (22).png" alt=""></td><td><strong>Add Campaign</strong>: Quickly create new campaigns tailored to your needs.</td></tr><tr><td><img src="../.gitbook/assets/image (8).png" alt=""></td><td><strong>Edit Campaign</strong>: Modify existing campaigns to optimize performance.</td></tr><tr><td><img src="../.gitbook/assets/image (16).png" alt=""></td><td><strong>Remove Campaign</strong>: Delete campaigns that are no longer needed.</td></tr><tr><td><img src="../.gitbook/assets/image (11).png" alt=""></td><td><strong>Start Campaign</strong>: Launch your campaigns with a single click.</td></tr><tr><td><img src="../.gitbook/assets/image (2).png" alt=""></td><td><strong>Stop Campaign</strong>: Pause campaigns whenever necessary.</td></tr><tr><td><img src="../.gitbook/assets/image (20).png" alt=""></td><td><strong>Reset View Count</strong>: Reset campaigns to view count.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (11).png" alt=""></td><td><strong>Start Campaign</strong>: Launch your campaigns with a single click.</td></tr><tr><td><img src="../.gitbook/assets/image (2).png" alt=""></td><td><strong>Stop Campaign</strong>: Pause campaigns whenever necessary.</td></tr><tr><td><img src="../.gitbook/assets/image (22).png" alt=""></td><td><strong>Add Campaign</strong>: Quickly create new campaigns tailored to your needs.</td></tr><tr><td><img src="../.gitbook/assets/image (8).png" alt=""></td><td><strong>Edit Campaign</strong>: Modify existing campaigns to optimize performance.</td></tr><tr><td><img src="../.gitbook/assets/image (16).png" alt=""></td><td><strong>Remove Campaign</strong>: Delete campaigns that are no longer needed.</td></tr><tr><td><img src="../.gitbook/assets/image (20).png" alt=""></td><td><strong>Reset View Count</strong>: Reset campaigns to view count.</td></tr></tbody></table>
 
 ### Add a new Campaign
 
@@ -40,14 +57,13 @@ Traffic Buddy allows you to create customized traffic campaigns to generate real
 
 #### General Settings Tab
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Add a new Campaign: General Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/campaign general.png" alt=""><figcaption><p>Add a new Campaign: General Settings</p></figcaption></figure>
 
 The General Settings tab contains the basic configuration options for your traffic campaign. Here you'll define the campaign's core parameters that determine its identity and scale.
 
 **Campaign ID**
 
 * An automatically generated unique identifier for your campaign
-* Read-only field
 * Used for tracking and referencing your campaign within Traffic Buddy
 
 **Campaign Name**
@@ -55,7 +71,6 @@ The General Settings tab contains the basic configuration options for your traff
 * Enter a descriptive name for your campaign
 * This name helps you identify your campaign in the campaign list
 * Example: "Summer Sale Landing Page Traffic" or "Product Page Testing"
-* Must be unique within your Traffic Buddy campaigns
 
 **Maximum Concurrent Browsers**
 
@@ -65,15 +80,25 @@ The General Settings tab contains the basic configuration options for your traff
 * Higher numbers generate more concurrent traffic but require more system resources
 * Recommended: Start with a lower number and increase gradually based on your system's performance
 
-**Maximum Number of Website Views**
+📝 **Note:** Consider your system resources when setting concurrent browsers and maximum views. Higher numbers may require more powerful hardware.&#x20;
+
+**Maximum Total Views**
 
 * Sets the total number of page views the campaign will generate
 * Campaign stops automatically when this number is reached
 * Example: Setting this to 1000 means the campaign will stop after generating 1000 page views
 
-📝 **Note:** Consider your system resources when setting concurrent browsers and maximum views. Higher numbers may require more powerful hardware.&#x20;
+**Maximum Views per Hour**
 
-⚠️ **Important:** Changes to these settings cannot be made while the campaign is running. Stop the campaign first to modify these parameters.
+* Sets the total number of page views the campaign will generate per hour
+* The campaign will be paused when this number has been reached
+* The campaign will be started on the next hour
+
+**Maximum Views per Day**
+
+* Sets the total number of page views the campaign will generate per day
+* The campaign will be paused when this number has been reached
+* The campaign will be started on the next day
 
 #### Traffic Origin Tab
 
