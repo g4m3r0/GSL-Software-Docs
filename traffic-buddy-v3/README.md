@@ -2,9 +2,11 @@
 description: 'Traffic Buddy: The Pinnacle of Web Traffic Automation!'
 ---
 
-# Traffic Buddy v3
+# Traffic Buddy V3
 
 Software Documentation for Traffic Buddy Version 2
+
+<p align="center"><a href="software-guide.md" class="button primary">Go to Software Guide</a></p>
 
 ## 🚀 **Introducing Traffic Buddy** 🚀
 
@@ -42,7 +44,7 @@ Remember to keep your license key safe, as it will be needed for future activati
 
 ## Trouble Shooting / FAQ
 
-**Q:** Is there a way to try your product before committing to a purchase? \
+**Q:** Is there a way to try your product before committing to a purchase?\
 **A:** We offer a 14-day money-back guarantee on all purchases, so you can feel confident in trying out our product. However, we do not currently have a free trial version available. If you have any further questions or concerns about the product, please don't hesitate to reach out to us. We're always happy to help.
 
 **Q:** I'm having trouble starting the program. What should I do?\
@@ -55,7 +57,7 @@ Remember to keep your license key safe, as it will be needed for future activati
 
 If you've tried all of these steps and are still having problems starting the program, please don't hesitate to reach out to our support team for further assistance.
 
-**Q:** I'm getting an error that my license key is invalid. What could be causing this issue? \
+**Q:** I'm getting an error that my license key is invalid. What could be causing this issue?\
 **A:** There are a few potential causes for this issue:
 
 1. Check your internet connection to ensure that you have a stable connection. This is necessary for the program to verify your license key.
