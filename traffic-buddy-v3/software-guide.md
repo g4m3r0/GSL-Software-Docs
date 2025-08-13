@@ -197,7 +197,7 @@ In this tab, you configure the sequence of actions that each simulated visitor w
 
 #### Browser Settings Tab
 
-<figure><img src="../.gitbook/assets/2024-11-10 20_25_06-Add Campaign-Browser-Settings.png" alt=""><figcaption><p>Browser Settings Configuration - Control core browser behavior and performance options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/campaign browsersettings.png" alt=""><figcaption><p>Browser Settings Configuration - Control core browser behavior and performance options</p></figcaption></figure>
 
 The Browser Settings Tab contains essential configuration options that control how the browser instances behave during your traffic campaign.
 
@@ -210,6 +210,7 @@ The Browser Settings Tab contains essential configuration options that control h
   * Debugging campaign behavior
   * Monitoring visitor actions in real-time
   * Testing new action sequences
+* ⚠️ **Important:** When running many concurrent browsers, keeping the "Hide Browser Windows" option enabled is recommended for better performance.&#x20;
 
 **Use Proxy Servers**
 
@@ -222,6 +223,15 @@ The Browser Settings Tab contains essential configuration options that control h
   * Testing geo-specific content
 * ⚠️When enabled proxy servers need to be configured (see Proxy Settings)
 
+**Restart Actions on Failture**
+
+* When one action fails within the action flow it wont be counted as views
+* The campaign will automatically restart from the first action
+* Useful for:
+  * Problems with proxy servers (rate limited or down)
+  * Failed to solve captcha
+  * Site didn't load properly
+
 **Browser Timeout**
 
 * Specifies maximum time (in seconds) for browser operations
@@ -233,11 +243,35 @@ The Browser Settings Tab contains essential configuration options that control h
 
 📝 **Note:** Lower timeout values may cause premature action termination on slower websites or with slow proxy servers.&#x20;
 
-⚠️ **Important:** When running many concurrent browsers, keeping the "Hide Browser Windows" option enabled is recommended for better performance.&#x20;
-
 💡 **Tip:** Start with default settings and adjust based on your specific needs and system capabilities.
 
+**Low Bandwidth Mode**
 
+* Blocks resources like images, fonts and media to lower the bandwidth consumtion
+* This is especially useful when using residential proxies or other proxies
+
+**Block Popups**
+
+* The browser will not allow popups
+
+**Block Dialogs**
+
+* The browser will not allow dialogs poping up
+
+**Block Downloads**
+
+* The browser will not allow file downloads
+
+**Captcha Solving**
+
+* Enable the captcha solving capabilities
+* Captcha solving will currently only be supported on the Google Search Action
+* Note: The captcha solving service need to be configered in the Captcha settings
+
+**Custom Extention Execution**
+
+* Execute custom browser extensions or plugins
+* This setting is available at an additional cost based on the browser extension, please contact the support if you are interested
 
 #### Device Emulation Tab
 
