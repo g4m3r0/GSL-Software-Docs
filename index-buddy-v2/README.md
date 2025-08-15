@@ -1,8 +1,22 @@
 ---
 description: Fast Website, Link and Backlink Indexing Software
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
-# Index Buddy v2
+# Index Buddy V2
 
 Software Documentation for [Index Buddy](https://gsoftwarelab.com/index-buddy-backlink-indexer/) Version 2
 
