@@ -2,7 +2,7 @@
 description: Traffic Buddy v3 Software Guide
 ---
 
-# 📖 Software Guide
+# Software Guide (Archive)
 
 Welcome to the Traffic Buddy User Manual, your comprehensive guide to mastering our platform's versatile features. Here, you'll discover how to manage campaigns, leverage custom JavaScript plugins for interactive web interactions, and adjust browser and proxy settings for optimized browsing experiences.
 

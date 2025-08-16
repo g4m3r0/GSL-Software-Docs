@@ -1,3 +1,9 @@
+---
+description: >-
+  Getting started with Traffic Buddy. Purchase, Installation and License
+  Activation.
+---
+
 # Getting Started
 
 ## Purchase
