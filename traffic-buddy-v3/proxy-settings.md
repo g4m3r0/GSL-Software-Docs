@@ -19,7 +19,7 @@ The Proxy Settings Tab enables you to configure and manage proxy servers for you
 * Central display of all configured proxy servers
 * Shows proxy details:
   * IP address and port
-  * Protocol type (HTTP, HTTPS, SOCKS4, SOCKS5)
+  * Protocol type (HTTP/HTTPS, SOCKS4, SOCKS5)
   * Country location
   * Current status
 
