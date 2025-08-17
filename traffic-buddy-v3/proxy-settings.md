@@ -8,7 +8,7 @@ description: >-
 
 ## Proxy Settings
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Proxy Settings Configuration - Manage and configure proxy servers for enhanced anonymity</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/proxy settings.png" alt="Proxy Settings Configuration - Manage and configure proxy servers for enhanced anonymity"><figcaption><p>Proxy Settings Configuration - Manage and configure proxy servers for enhanced anonymity</p></figcaption></figure>
 
 The Proxy Settings Tab enables you to configure and manage proxy servers for your traffic campaigns, providing control over IP addresses and locations used for website visits.
 
