@@ -6,7 +6,7 @@
 **Q:** I'm having trouble starting the program. What should I do?\
 **A:** There could be a few different things that could be causing issues with starting the program. Here are a few things you can try:
 
-1. Make sure you have the latest version of .NET 8 installed on your computer. You can download the latest version from the [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.8-windows-x64-installer) website.
+1. Make sure you have the latest version of .NET 9 installed on your computer. You can download the latest version from the [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-9.0.304-windows-x64-installer) website.
 2. Check to see if there are any updates available for the program. Sometimes issues can be resolved by simply updating to the latest version.
 3. Try restarting your computer and then attempting to start the program again.
 4. If you're still having issues, try uninstalling and reinstalling the program.
