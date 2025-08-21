@@ -320,3 +320,7 @@ Browse through a comprehensive collection of devices including:
 💡 **Tip:** Select a variety of devices to create more realistic traffic patterns that match your target audience's device usage.&#x20;
 
 ⚠️ **Important:** The more devices you select, the more diverse your traffic will appear in analytics.
+
+### Statistics Tab
+
+TODO
