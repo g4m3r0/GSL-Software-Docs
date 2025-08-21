@@ -8,6 +8,7 @@
   * [Getting Started](traffic-buddy-v3/getting-started.md)
   * [Quick Start Guide](traffic-buddy-v3/quick-start-guide.md)
   * [Campaigns](traffic-buddy-v3/campaigns.md)
+  * [Antidetect Browser](traffic-buddy-v3/antidetect-browser.md)
   * [Proxy Settings](traffic-buddy-v3/proxy-settings.md)
   * [Captcha Settings](traffic-buddy-v3/captcha-settings.md)
   * [Menu (Top)](traffic-buddy-v3/menu-top.md)
