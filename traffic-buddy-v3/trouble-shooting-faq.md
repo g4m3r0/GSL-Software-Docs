@@ -47,3 +47,23 @@ One product license is only valid for usage on a single device only. If you want
 2. Install Traffic Buddy on the new device and enter your license key to activate it.
 
 </details>
+
+<details>
+
+<summary>How many visits can I generate per hour with Traffic Buddy</summary>
+
+The number of visits you can generate per hour depends on several factors:
+
+* **System resources:** You’ll need approximately **8 GB of RAM for every 100 browser instances**. A powerful CPU is also required — ideally **8 cores, 16 threads (8c/16t)**.
+* **Campaign actions:** The more actions your campaign requires (e.g., clicks, scrolling, waiting), the longer each visit takes, which reduces total visits per hour.
+* **Website performance:** Visits take longer to complete on complex websites or when using slow proxies, which can further limit throughput.
+
+Example: With an estimated view time of 10 seconds per visit you will reach 6 visits per minute leading to 360 visits per hour with 1 concurrent browser
+
+* 1 concurrent browser: 360 visits per hour
+* 100 concurrent browsers: 36000 visits per hour
+* 1000 concurrent browsers: 360000 visits per hour
+
+In short, the exact visits per hour vary depending on your **hardware, campaign design, and website speed**.&#x20;
+
+</details>
