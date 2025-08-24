@@ -1,4 +1,15 @@
+---
+description: >-
+  Find solutions to common problems with Traffic Buddy. Our official FAQ covers
+  issues like invalid license keys, program startup errors, license transfers,
+  and performance tips.
+---
+
 # Trouble Shooting / FAQ
+
+Welcome to the Traffic Buddy Troubleshooting & FAQ page. Here you'll find answers to our most common questions, from getting started and activating your license to optimizing performance. Browse through the topics below to find quick solutions to common issues.
+
+If you can't find the answer you're looking for, please don't hesitate to reach out to our support team for further assistance.
 
 <details>
 
